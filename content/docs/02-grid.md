@@ -51,6 +51,8 @@ Choose **Zoom In Sheet**, **Zoom Out Sheet** or **Reset Sheet Zoom** from the co
 
 Use the **Format** menu for currencies, dates, decimals and text. ⌥⌘1 through ⌥⌘6 apply number, currency, percent, date, text and wrap. Use ⌘B or ⌘I to toggle bold or italic. SUM, SUMIF and SUMIFS results start in bold. Toggle bold off for a particular total, or use **Clear Formatting** to return to the default.
 
+Point to a format in the menu or use the arrow keys to preview it on the selected cells. Choose the item to apply it, or press Escape to restore the original appearance. Wrap grows the row when applied. The command palette also opens the menu through **Browse Cell Formats**.
+
 ## Calculate and copy
 
 Type `=SUM(` in a cell or in the formula bar, then drag across the cells to enter a range. Hold at the grid edge to reach cells beyond the visible area. Click a single cell to enter its address. Type a comma to pick another range, or press Return to finish the formula.

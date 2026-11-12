@@ -14,11 +14,17 @@ Copy a column of numbers or lines such as `Lunch $12.50`. The new sheet includes
 
 Use ⌃⇧⌘4 to copy a region of the screen. Press ⌥⇧ Space or paste the image with ⌘V in Scratch. Apple Vision reads the screenshot on your Mac. Scratch uses the rightmost amount it recognises in each row. Crop to the amount column if the screenshot has several.
 
-Select a row to inspect its highlighted source in the **Source** pane. Press ⌘U to toggle the pane. Printed totals import as regular rows, so select the line items you want before summing. The source image is saved alongside the workbook.
+Select a row to inspect its amount beside its source crop in **Review Capture**. Press ⌘U to toggle the pane. **Next** visits uncertain rows first, then the remaining unchecked rows. Correct any amount in the grid, then click **Mark**. Editing a reviewed row puts it back in review.
+
+Scratch shows the sum of the detail rows and compares it with a recognised printed total. The pane shows the difference when they disagree. Mixed currencies and invalid amounts leave the calculated total unavailable. The source image and review marks are saved with the workbook.
+
+Click **Append**, choose another sheet, then enter the destination columns in item and amount order, with a currency column if the capture has one. For example, enter `B, D` to put items in B and amounts in D. Scratch previews the range below the last populated row in those columns and remembers the mapping for that sheet. Only reviewed detail rows append. The source capture remains available, and ⌘Z undoes the append as one edit.
 
 ## Choose how to paste
 
 Open **Command Palette** from the ⋯ menu or press its shortcut (⇧⌘P by default). **Paste Values** copies the displayed values into the destination. **Paste Formulas Only** and **Paste Formatting Only** use cells copied in Scratch.
+
+Choose **Preview Paste** to inspect the destination and the number of rows and columns. Cells that will be replaced are highlighted. Click another cell or use the arrows to move the preview. Choose **Values**, **Formulas**, **Transpose** or **Split**, or press 1 through 4. In Split, choose a separator or press S to cycle through them. Values and Split preserve leading zeros. Return or **Paste** applies the preview and Escape cancels it.
 
 Choose **Preview Paste CSV**, **Preview Paste TSV** or **Preview Paste Semicolon** to inspect a destination before writing. Press T to treat fields as text, D to interpret decimal commas, Return to paste or Escape to cancel. Use text mode for IDs with leading zeros.
 
