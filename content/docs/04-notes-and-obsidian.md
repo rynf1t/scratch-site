@@ -30,6 +30,12 @@ The command palette also inserts cell and range links, live tables, bar charts, 
 
 A live table previews up to six rows and four columns. Copy or send the note for the full table. A chart accepts one row or up to two columns and previews up to eight positions. Click a bar to open its source cell. Markdown exports include the chart’s source data as a table.
 
+## Repair a note link
+
+Scratch saves a stable reference for each live note link. Renaming a sheet and editing its values preserve the link. If you delete the source sheet, use **Restore Deleted Sheet** to recover it and reconnect the link.
+
+To point a link to a different range on the sheet that contains the note, select the new range and choose **Relink Note Source**. Choose the link to update. Use Undo in Notes to restore its previous target.
+
 ## Send the table and notes
 
 Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
@@ -45,3 +51,13 @@ Open **Scratch → Sheets** in Obsidian’s file explorer. Each saved sheet has 
 The first save creates **Scratch Sheets.base**. Open it from the command palette to find saved sheets by name and date. The table and linked values are snapshots at export time. To refresh them, save the sheet again from Scratch.
 
 Use **Copy Markdown** or **Save Markdown File** in the notes menu to take the same notes elsewhere.
+
+## Open an export in Scratch
+
+Click **Open in Scratch** in an exported note to return to its source. A sheet export opens the sheet. A selection sent to the daily note opens the selected range. Open the Scratch app once so macOS can recognise its links, and use the workbook that contains the original sheet.
+
+## Search your Obsidian vault
+
+Choose **Search Obsidian Vault** in the command palette, then type at least two characters from a note’s title or text. Results show a matching snippet and the folder, which helps when two notes have the same title. Press Return to open the result in Obsidian or ⌥Return to insert its link into Scratch Notes.
+
+The first search builds a local index in memory. Scratch refreshes it when vault files change. Search covers the first 128 KiB of each Markdown note and shows up to 20 matches. If the vault is unavailable, open it in Obsidian and choose **Retry Vault Lookup**.
