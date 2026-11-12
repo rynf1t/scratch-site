@@ -28,8 +28,8 @@ export default {
 			link: { label: 'Grid and shortcuts', href: '/docs/grid' },
 			items: [
 				{ name: '⌥ Space', text: 'Show Scratch' },
-				{ name: '⇧⌘P', text: 'Open the command palette' },
-				{ name: '⌘J', text: 'Show notes' }
+				{ name: '⇧⌘P', text: 'Open the command palette (default)' },
+				{ name: '⌘J', text: 'Show notes (default)' }
 			]
 		},
 		{

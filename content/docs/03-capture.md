@@ -18,7 +18,7 @@ Select a row to inspect its highlighted source in the **Source** pane. Press ⌘
 
 ## Choose how to paste
 
-Open the command palette with ⇧⌘P. **Paste Values** copies the displayed values into the destination. **Paste Formulas Only** and **Paste Formatting Only** use cells copied in Scratch.
+Open **Command Palette** from the ⋯ menu or press its shortcut (⇧⌘P by default). **Paste Values** copies the displayed values into the destination. **Paste Formulas Only** and **Paste Formatting Only** use cells copied in Scratch.
 
 Choose **Preview Paste CSV**, **Preview Paste TSV** or **Preview Paste Semicolon** to inspect a destination before writing. Press T to treat fields as text, D to interpret decimal commas, Return to paste or Escape to cancel. Use text mode for IDs with leading zeros.
 

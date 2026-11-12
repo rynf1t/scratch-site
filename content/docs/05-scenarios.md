@@ -9,7 +9,7 @@ group: Guides
 ## Try a different input
 
 1. Enter `100` in A1, `3` in B1 and `=A1*B1` in C1.
-2. Select A1:C1, press ⇧⌘P and choose **Compare A/B Scenario**.
+2. Select A1:C1, open the command palette and choose **Compare A/B Scenario**.
 3. Change A1 to `125` on the B side. A stays at `300`. B shows `375` with a difference of `+75`.
 4. Press Escape to discard the trial, or choose **Apply B Changes** (⌘Return). Press ⌘Z in the grid to undo the inputs together.
 

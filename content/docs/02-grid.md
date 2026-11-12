@@ -27,7 +27,7 @@ Press ⌘F to search displayed values, formulas or notes. Return goes to a match
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.
 
-Opening Notes gives the grid more width when there is room on the display. Notes can stay open when you expand the window. Press ⌘J to hide or show Notes without changing the expanded window size.
+Opening Notes gives the grid more width when there is room on the display. Notes can stay open when you expand the window. Click **Notes** to hide or show it without changing the expanded window size.
 
 ## Format a range
 
@@ -41,10 +41,12 @@ Type `=SUM(` in a cell or in the formula bar, then drag across the cells to ente
 
 Click **ƒx** on a formula cell to see the intermediate results and jump to its references. [Formula Microscope](/docs/formula-microscope).
 
-Open the command palette with ⇧⌘P. Type a cell address to jump to it, or try `12 kg to lb` to copy a unit conversion. Currency formatting sets how a value is displayed. It does not fetch exchange rates.
+Open **Command Palette** from the ⋯ menu or press its shortcut (⇧⌘P by default). Type a cell address to jump to it, or try `12 kg to lb` to copy a unit conversion. Currency formatting sets how a value is displayed. It does not fetch exchange rates. [Keyboard Shortcuts](/docs/shortcuts).
 
 Select numbers and press ⌘Return to insert the suggested calculation. Press ⇧⌘C to copy the selected result or sum. **Pin Result** keeps the active cell’s formatted value in a small window above other apps. It updates when the source changes and lasts until Scratch quits.
 
 Each sheet has 1,000 rows and 64 columns. Formula references stay within the current sheet. Undo history lasts for the app session.
 
 Use **Show Selection History** to compare and restore older cell entries and formats after a restart. [Selection History](/docs/history).
+
+Use **Start Recording** to save a sequence of fill, format and clear commands for another range. [Record and Replay](/docs/replay).

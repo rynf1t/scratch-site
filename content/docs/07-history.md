@@ -4,7 +4,7 @@ description: Compare earlier cell entries and recover a range without rolling ba
 group: Guides
 ---
 
-**Select the cells you want to recover and choose Show Selection History from the sheet menu or the command palette (⇧⌘P).**
+**Select the cells you want to recover and choose Show Selection History from the sheet menu or the command palette.**
 
 ## Compare a revision
 

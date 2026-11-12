@@ -4,7 +4,7 @@ description: See how a formula evaluates and jump to the cells behind its result
 group: Guides
 ---
 
-**Select a formula cell and click ƒx in the formula bar. You can also choose Inspect Formula from the command palette (⇧⌘P).**
+**Select a formula cell and click ƒx in the formula bar. You can also choose Inspect Formula from the command palette.**
 
 ## Read a calculation
 

@@ -21,6 +21,6 @@ Click Scratch’s menu bar icon or press ⌥ Space. Press Escape on the grid to 
 
 Use ⇧⌘N to create a sheet and ⌘K to switch sheets. Each sheet has its own grid, notes and column widths. Scratch autosaves the workbook locally. **Delete Current Sheet** removes a sheet from the workbook view. **Restore Deleted Sheet** recovers it, including its notes, after a restart.
 
-## Change the global shortcuts
+## Change the shortcuts
 
-Open Settings with ⌘, and choose another shortcut if either default conflicts with a shortcut on your Mac. **Capture Clipboard in New Sheet** is also available from Settings and the command palette.
+Click **⋯ → Keyboard Shortcuts** to change the shortcuts for opening Scratch, capturing the clipboard, Notes or the command palette. **Capture Clipboard in New Sheet** is also available from the ⋯ menu and the command palette. [Keyboard Shortcuts](/docs/shortcuts).

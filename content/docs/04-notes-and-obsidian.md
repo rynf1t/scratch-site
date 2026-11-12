@@ -4,7 +4,7 @@ description: Link notes to live cells and send the table and notes to your vault
 group: Guides
 ---
 
-**Press ⌘J to show or hide the current sheet’s notes. Press ⌥⌘J to move focus between the notes and the grid.**
+**Click Notes to show or hide the current sheet’s notes. The default shortcuts are ⌘J to show or hide Notes and ⌥⌘J to switch focus between Notes and the grid.** [Change the shortcuts](/docs/shortcuts).
 
 ## Format a note
 
@@ -20,7 +20,7 @@ A live table previews up to six rows and four columns. Copy or send the note for
 
 ## Send the table and notes
 
-Press ⇧⌘J or use **Send to ryn**. Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
+Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
 
 Choose **Send Selection and Notes** in the palette to append just that range and its notes to the daily note. Choose **Save Sheet to Obsidian** to update just the saved sheet copy.
 
