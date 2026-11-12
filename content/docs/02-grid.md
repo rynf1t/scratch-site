@@ -8,7 +8,9 @@ group: Guides
 
 ## Grid toolbar
 
-Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, **Export** offers file formats for the current selection or workbook, and **Tables** creates or finds a named table. The freeze and filter buttons highlight while those features are active. Hover a column letter and click its chevron to open the same controls at that column.
+Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, **Export** offers file formats for the current selection or workbook, and **Tables** creates or finds a named table. The freeze and filter buttons highlight while those features are active. Filtered row numbers also take the accent colour. Hover a column letter and click its chevron to open the same controls at that column.
+
+The footer shows a selection’s sum, average and count when they’re available. A uniform number, currency or percent format carries through to the totals. Copying a result keeps its full precision.
 
 ## Move and select
 
@@ -62,6 +64,8 @@ Use **Tables** to jump to a table by name. With the cursor inside a table, the p
 Choose **Duplicate Sheet** to create a copy beside the current sheet. The copy includes cells, formulas, formatting, notes, named ranges, and capture evidence. Note links within the sheet point to the copied cells. Links to other sheets keep their destinations. Use **Sync Editable Table with Obsidian** to give the copy its own sync destination.
 
 Choose **Import CSV or TSV** from the sheet menu or command palette, then pick a UTF-8 file. Scratch opens the data in a new sheet named after the file. Quoted fields and embedded line breaks are preserved. Fields beginning with `=` come in as text. Each file can contain up to 2,000 rows and 96 columns and must fit within 10 MB.
+
+After **Delete Current Sheet**, click **Undo** in the footer or press ⌘Z to bring the sheet back. The footer offers Undo for eight seconds and keeps it visible while you hover over it. To bring back a sheet later, open **Restore Deleted Sheet** from the sheet menu or command palette.
 
 ## Insert or delete rows and columns
 

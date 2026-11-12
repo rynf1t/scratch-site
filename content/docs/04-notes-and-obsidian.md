@@ -18,7 +18,7 @@ Scratch remembers a size for each dock across sheets and launches. When the wind
 
 ## Format a note
 
-Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch shows formatted headings, emphasis and escaped punctuation while saving the Markdown source. Use **Show Notes Markdown Source** in the command palette to edit the markers, then **Show Formatted Notes** to switch back.
+Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch shows headings, emphasis, bullets and checkboxes while saving the Markdown source. Move the caret into a list line to edit its markers directly. Use **Show Notes Markdown Source** in the command palette to edit the markers, then **Show Formatted Notes** to switch back.
 
 ## Annotate a cell or range
 
@@ -48,7 +48,7 @@ To point a link to a different range on the sheet that contains the note, select
 
 ## Send the table and notes
 
-Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. The Notes pane shows the vault, delivery mode and included cells before you send. Once Obsidian confirms the delivery, the pane keeps the note name and an **Open** button. Use **Open Saved Sheet in Obsidian** in the Notes menu to open the dated copy. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
+Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Hover over **Send to ryn** to see the vault, delivery mode and included cells before you send. Once Obsidian confirms the delivery, the pane keeps the note name and an **Open** button. Use **Open Saved Sheet in Obsidian** in the Notes menu to open the dated copy. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
 
 Choose **Send Selection and Notes** in the palette to append just that range and its notes to the daily note. Choose **Save Sheet to Obsidian** to update just the saved sheet copy.
 

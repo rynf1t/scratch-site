@@ -8,7 +8,7 @@ group: Guides
 
 ## Compare a revision
 
-Pick a revision to see the selected cells that differ from the current sheet. **Before** shows the entries and formatting just before that edit. **Now** shows what is in the grid. Formula cells show the formula text so you can see exactly what will be restored.
+Pick a revision to see the selected cells that differ from the current sheet. **Before** shows the entries and formatting just before that edit. **Now** shows what is in the grid. Changed entries or formats are emphasised. Formula cells show the expression that will be restored. Hover over the revision time for the exact date and time.
 
 ## Restore just the range
 
