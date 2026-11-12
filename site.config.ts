@@ -41,7 +41,7 @@ export default {
 		{
 			eyebrow: 'Notes',
 			title: 'Keep the numbers with the explanation',
-			body: 'Put live cells, tables or a chart beside your notes. Send a table and its notes to today’s Obsidian daily note, or save a dated sheet note you can update later.',
+			body: 'Put live cells, tables or a chart beside your notes. Send the table and notes to today’s Obsidian daily note and update the saved sheet in one step.',
 			link: { label: 'Notes and Obsidian', href: '/docs/notes-and-obsidian' }
 		}
 	],

@@ -18,15 +18,17 @@ The command palette also inserts cell and range links, live tables, bar charts, 
 
 A live table previews up to six rows and four columns. Copy or send the note for the full table. A chart accepts one row or up to two columns and previews up to eight positions. Click a bar to open its source cell. Markdown exports include the chart’s source data as a table.
 
-## Send to today’s daily note
+## Send the table and notes
 
-Press ⇧⌘J or use **Send to ryn**. Scratch appends the sheet’s populated range and the notes as Markdown. To send less, choose **Send Selection and Notes** in the palette. Sending identical content again to the same daily note leaves one entry.
+Press ⇧⌘J or use **Send to ryn**. Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
+
+Choose **Send Selection and Notes** in the palette to append just that range and its notes to the daily note. Choose **Save Sheet to Obsidian** to update just the saved sheet copy.
 
 The handoff uses the Obsidian command line and the configured vault’s Daily Notes settings. The local preview targets the `ryn` vault by default. [Set up the Obsidian CLI](https://obsidian.md/help/cli).
 
 ## Save a dated sheet note
 
-Choose **Save Sheet to Obsidian** to write a named note under `Scratch/Sheets`. Each save updates the same note and its date. Add your own Obsidian content outside Scratch’s generated section so it survives a resave.
+Open **Scratch → Sheets** in Obsidian’s file explorer. Each saved sheet has its own named note with the table, notes and save date. Add your own Obsidian content outside Scratch’s generated section so it survives a resave.
 
 The first save creates **Scratch Sheets.base**. Open it from the command palette to find saved sheets by name and date. The table and linked values are snapshots at export time. To refresh them, save the sheet again from Scratch.
 
