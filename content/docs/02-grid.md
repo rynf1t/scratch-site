@@ -8,7 +8,7 @@ group: Guides
 
 ## Grid toolbar
 
-Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, and **Export** offers a CSV of the selection or sheet. The freeze and filter buttons highlight while those features are active.
+Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, **Export** offers a CSV, and **Tables** creates or finds a named table. The freeze and filter buttons highlight while those features are active.
 
 ## Move and select
 
@@ -45,6 +45,18 @@ Select one rectangle, choose **Name Selected Range**, and enter a name such as `
 
 Use **Remove Named Range** to remove the name. Formulas use cell addresses.
 
+## Named tables
+
+Select a rectangle that includes the header and at least one data row. Click **Tables**, choose **Create Table from Selection**, and enter a name. Each table has a unique name on its sheet, and tables can sit side by side.
+
+Click any cell in the table to use **Sort**, **Filter**, or **Export** for that table. The toolbar highlights **Tables**, and the panels beside **Sort** and **Filter** show the table’s name and range.
+
+- **Sort** starts with the selected column. Choose a different column if needed, then click **Ascending** or **Descending**. The first row stays as a header. Cells move within the table’s columns. Formula references follow the cells they refer to. Press ⌘Z to undo.
+- **Filter** shows matches as you type. Choose a column and enter part of a displayed value. The panel shows the match count and a **Clear** button. Shaded cells mark excluded rows inside the table. Cells beside the table stay visible and row numbers stay in place. The arrow keys skip shaded cells. Each sheet has one active filter. Click the filter count to clear it.
+- **Export** saves the table as a CSV named after it. With a filter active, choose **Export Matching Rows as CSV** to include the header and matching data, or choose the table by name to include every row.
+
+Use **Tables** to jump to a table by name. With the cursor inside a table, the picker also offers actions to select it, rename it, or remove its name while keeping its cells. Row and column insertions and deletions update the table’s bounds and clear its active filter.
+
 ## Duplicate a sheet or import a file
 
 Choose **Duplicate Sheet** to create a copy beside the current sheet. The copy includes cells, formulas, formatting, notes, named ranges, and capture evidence. Note links within the sheet point to the copied cells. Links to other sheets keep their destinations. Use **Sync Editable Table with Obsidian** to give the copy its own sync destination.
@@ -74,19 +86,19 @@ Drag the blue grip at the top of a vertical divider or the left end of a horizon
 
 ## Sort rows
 
-Select a cell in the column to sort by and click **Sort**. Scratch shows the affected rows, the key column and whether the first row will stay in place. Pick ascending or descending. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
+Select a cell and click **Sort**. Check the affected rows, choose a column, and click **Ascending** or **Descending**. Use **First row is a header** to keep the top row in place. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
 
-Scratch moves every cell in each affected row, including cells beyond the selected columns. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal keys keep their order.
+For a sheet-level sort, Scratch moves every cell in each affected row. If the affected rows contain a named table, select a cell inside that table to sort it. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal keys keep their order.
 
 Formulas, annotations, named ranges and live note links follow the cells they reference. If moving a row would split a referenced range into separate pieces, Scratch leaves the sheet as it was. Press ⌘Z to undo a sort or ⇧⌘Z to redo it.
 
 ## Filter rows
 
-Select a cell in the column to filter and click **Filter**. Type a word, number or fragment and press Return. Scratch matches the text you see in the column, including formatted values and formula results. Case and accents are ignored. To limit the filter to a row band, select those rows before opening the command.
+Select a cell and click **Filter**. Choose a column and type a word, number or fragment. The grid and match count update as you type. Click **Done** or press Return to close the panel. Scratch matches the text you see in the column, including formatted values and formula results. Case and accents are ignored. To limit the filter to a row band, select those rows before opening the command.
 
-The first row stays visible by default. Choose **Filter Including First Row** to include it when it is unfrozen. Arrow keys and cell entry skip hidden rows. The footer shows how many rows match. Click the filter button in the footer to clear it. Jumping directly to a hidden address also clears the filter.
+The first row stays visible by default. Turn off **First row is a header** to include it when it is unfrozen. Arrow keys and cell entry skip hidden rows. The footer shows how many rows match. Click the filter button in the footer to clear it. Jumping directly to a hidden address also clears the filter.
 
-A filter lasts for the session and keeps the underlying rows and addresses intact. Selection operations and calculations still use the selected addresses. Exports and Obsidian sync include all rows within the chosen range. CSV carries the values and current sort order. Freeze panes and Scratch filters are view settings, so set them up in the destination app if you need them there.
+A sheet-level filter lasts for the session and keeps the underlying rows and addresses intact. Selection operations and calculations still use the selected addresses. Exports and Obsidian sync include all rows within the chosen range. CSV carries the values and current sort order. Freeze panes and Scratch filters are view settings, so set them up in the destination app if you need them there.
 
 ## Resize the window
 
