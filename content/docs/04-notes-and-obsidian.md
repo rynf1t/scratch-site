@@ -52,6 +52,16 @@ The first save creates **Scratch Sheets.base**. Open it from the command palette
 
 Use **Copy Markdown** or **Save Markdown File** in the notes menu to take the same notes elsewhere.
 
+## Edit a table in both Scratch and Obsidian
+
+In Scratch, choose **Sync Editable Table with Obsidian** from the command palette or the Notes menu. The first sync creates a separate note under `Scratch/Editable Tables` in your configured vault. Use **Open Editable Table in Obsidian** to open it again.
+
+Edit the cells in either app, then run **Sync Editable Table with Obsidian** again. Scratch combines edits to different cells. If you change the same cell to different values in both apps, Scratch lists the conflicting addresses. Make those values agree and sync again. You can undo a pull in Scratch with ⌘Z.
+
+Install the **Power Tables** community plugin in Obsidian to edit and recalculate compatible formulas there. The first row is row 1 in both apps. Keep the table’s row and column count fixed when editing in Obsidian. To extend it, add cells at the right or bottom in Scratch and sync. The editable table can use up to 64 KB of Markdown. Formulas with complex quoting and Power Tables cell styles can stop a sync until you simplify those cells.
+
+The command syncs cell values and formulas on demand. Use **Save Sheet to Obsidian** or **Send to ryn** to include your Scratch Notes in a dated copy. You can write in the editable note above or below the table.
+
 ## Open an export in Scratch
 
 Click **Open in Scratch** in an exported note to return to its source. A sheet export opens the sheet. A selection sent to the daily note opens the selected range. Open the Scratch app once so macOS can recognise its links, and use the workbook that contains the original sheet.
