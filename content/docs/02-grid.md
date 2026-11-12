@@ -23,6 +23,8 @@ Shift+Tab and Shift+Return reverse direction. Tab wraps within a selected block.
 
 Drag from one cell to another to select a range. Hold Shift when you start the drag to extend the current selection from its original cell. Hold the pointer at a grid edge to keep scrolling and selecting. Move back inside the grid to pause scrolling, or release to finish.
 
+While dragging, Scratch shows the selection’s rows × columns. The active cell stands out inside the selected block. Drag the border of a populated selection to move its cells, or hold Option to copy them. The destination shows **Move** or **Copy** and previews the contents. A copy shifts relative references, and a move keeps formula addresses as written. Cell annotations and links stay at their existing addresses. Occupied destinations are protected, and Escape cancels the drag.
+
 Press ⌘F to search displayed values, formulas or notes. Return goes to a match. Escape returns to the pane where you opened Find. Find shows the first 80 matches.
 
 ## Select separate ranges
@@ -43,7 +45,9 @@ In compact mode, opening Notes widens the window when there’s room on the disp
 
 ## Format a range
 
-Drag a column divider to resize it or double-click to fit the contents. **Wrap** grows the row. Press ⌥Return in a wrapped cell to insert a line break.
+Hover near a column divider to see its grip and resize cursor. Drag it to resize the column or double-click to fit the contents. **Wrap** grows the row. Press ⌥Return in a wrapped cell to insert a line break.
+
+Choose **Zoom In Sheet**, **Zoom Out Sheet** or **Reset Sheet Zoom** from the command palette. Zoom scales the grid text, rows, columns and grid controls. Scratch remembers the zoom for each sheet.
 
 Use the **Format** menu for currencies, dates, decimals and text. ⌥⌘1 through ⌥⌘6 apply number, currency, percent, date, text and wrap. Use ⌘B or ⌘I to toggle bold or italic. SUM, SUMIF and SUMIFS results start in bold. Toggle bold off for a particular total, or use **Clear Formatting** to return to the default.
 

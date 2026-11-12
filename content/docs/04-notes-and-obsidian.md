@@ -14,21 +14,23 @@ Scratch remembers your preferred width across sheets and launches. If the window
 
 ## Format a note
 
-Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch saves the formatting as Markdown.
+Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch shows formatted headings, emphasis and escaped punctuation while saving the Markdown source. Use **Show Notes Markdown Source** in the command palette to edit the markers, then **Show Formatted Notes** to switch back.
 
 ## Annotate a cell or range
 
-With Notes open, select text and Option-drag from inside the selection to a grid cell. Drop inside the current grid selection to annotate that range. The outline shows where the annotation will land. The text stays in Notes. Use ⌘Z from the grid to undo the new annotation.
+With Notes open, select plain text and Option-drag from inside the selection to a grid cell. Drop inside the current grid selection to annotate that range. Scratch links the selected text to the annotation and confirms the cell address. Click the underlined text in Notes or open the annotation in the grid. Both open the same editor, and edits appear in both places. Use ⌘Z from the grid to undo the link and restore the original note text.
 
 Select a cell or range and choose **Annotate Selection** in the command palette. Write up to 2,000 characters and click **Save** or press ⌘Return. A marker appears at the top left of the first cell.
 
-Click the marker to edit or delete the annotation. Use **Find Annotations** to search this sheet by address or text and jump to its range. Annotations are saved with the workbook. Undo can restore a deleted annotation.
+Click the marker or select its cell and click **Annotation** in the grid footer. The **Annotations** button at the bottom of Notes lists the sheet’s annotations. Use **Find Annotations** in the command palette to search by address or text. Annotations are saved with the workbook, and Undo can restore a deleted annotation.
+
+To link an annotation you made before this update, select its matching text in Notes and Option-drag it onto the same cell or range.
 
 ## Put a live result in a note
 
 Select a range and Option-drag from inside it into Notes. The insertion marker shows where the live table will land. Add Shift for a live chart or Command for a range link. The label beside the pointer identifies the item before you drop it. Press Escape to cancel or ⌘Z in Notes to undo the insertion.
 
-Select a cell and press ⌥⌘L to insert its live value. The value changes with its source cell. Click it or press ⌥Return on the selected note link to go to the source.
+Select a cell and press ⌥⌘L to insert its live value. Hover over the value to see its sheet, address, displayed result and formula. Click it or press ⌥Return on the selected note link to go to the source. Press ⌃⌘← or choose **Back to Note** to restore the note selection and scroll position.
 
 The command palette also inserts cell and range links, live tables, bar charts, and fixed value snapshots. Pick a source sheet and address to link across sheets. **Find Notes Referencing Selection** finds links in the current sheet’s notes.
 
