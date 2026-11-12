@@ -7,6 +7,6 @@ description: A floating grid with formulas, clipboard capture and notes.
 
 Capture clipboard amounts and screenshots in a new sheet. Keep notes beside the numbers and insert live values, tables or a bar chart. Send the table and notes to an Obsidian daily note or save a dated sheet note.
 
-**Compare A/B scenarios in a separate window.** Edit the inputs on the B side to see how formulas change. Apply the trial as one undoable edit or close it to discard the changes. [Try a comparison](/docs/scenarios).
+A/B scenarios were removed in a later update. [Read the removal note](/changelog/2026-11-12-remove-scenarios).
 
 The app is available as a local build from an existing source checkout. The [getting started guide](/docs/getting-started) walks through the first calculation.

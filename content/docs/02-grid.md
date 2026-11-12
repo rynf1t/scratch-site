@@ -31,7 +31,7 @@ Select the first range, then ⌘-click a cell or hold ⌘ while dragging to add 
 
 Formatting, Delete and **Copy Result** apply across the selection. Overlapping ranges count each cell once. Undo restores the edits and the selection. Press Escape to keep the latest range.
 
-Copying or pasting cell data, filling, replaying commands, comparing scenarios, viewing selection history and sending selected cells to Obsidian each use one range. Scratch saves the latest range when you leave the sheet or quit.
+Copying or pasting cell data, filling, replaying commands, viewing selection history and sending selected cells to Obsidian each use one range. Scratch saves the latest range when you leave the sheet or quit.
 
 ## Resize the window
 
