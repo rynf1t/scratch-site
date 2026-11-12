@@ -62,6 +62,28 @@ Formulas, including references such as `$A$1`, follow the cells that move. Inser
 
 Use ⌘Z to undo the edit or ⇧⌘Z to redo it. If an insertion would push data or formatting beyond the last row or column, Scratch leaves the sheet as it was.
 
+## Freeze rows and columns
+
+Select B2 and choose **Freeze Above and Left of Selection** to keep row 1 and column A in view as you scroll. **Freeze Top Row** and **Freeze First Column** work independently. Find all three in the sheet menu under **Freeze Panes**, or in the command palette.
+
+Drag the blue grip at the top of a vertical divider or the left end of a horizontal divider. The boundary snaps to a row or column as you drag. Release to save it or press Escape to cancel. **Unfreeze Panes** restores ordinary scrolling. Scratch remembers the boundary per sheet and makes room for scrolling cells when you shrink the window.
+
+## Sort rows
+
+Select a cell in the column to sort by and choose **Sort Rows**. Scratch shows the affected rows, the key column and whether the first row will stay in place. Pick ascending or descending. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
+
+Scratch moves every cell in each affected row, including cells beyond the selected columns. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal keys keep their order.
+
+Formulas, annotations, named ranges and live note links follow the cells they reference. If moving a row would split a referenced range into separate pieces, Scratch leaves the sheet as it was. Press ⌘Z to undo a sort or ⇧⌘Z to redo it.
+
+## Filter rows
+
+Select a cell in the column to filter and choose **Filter Rows**. Type a word, number or fragment and press Return. Scratch matches the text you see in the column, including formatted values and formula results. Case and accents are ignored. To limit the filter to a row band, select those rows before opening the command.
+
+The first row stays visible by default. Choose **Filter Including First Row** to include it when it is unfrozen. Arrow keys and cell entry skip hidden rows. The footer shows how many rows match. Click the filter button in the footer to clear it. Jumping directly to a hidden address also clears the filter.
+
+A filter lasts for the session and keeps the underlying rows and addresses intact. Selection operations and calculations still use the selected addresses. Exports and Obsidian sync include all rows within the chosen range. Save a CSV to open the values and row order in Excel or import them into Google Sheets. Freeze panes and Scratch filters are view settings, so set those up in the destination app if you need them there.
+
 ## Resize the window
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.

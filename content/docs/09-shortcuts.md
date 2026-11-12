@@ -16,3 +16,5 @@ group: Start
 | Send to Obsidian | ⇧⌘J | In Scratch |
 
 If another app intercepts a shortcut, click **Notes** or choose **Command Palette** from the ⋯ menu while you change the binding. For example, try ⌃⌥N for Notes and ⌃⌥P for the palette if those combinations are available on your Mac. Scratch flags conflicts with its own shortcuts.
+
+Open the command palette and type **Freeze**, **Sort Rows**, **Filter Rows** or **Clear Row Filter**. In a sort or filter picker, use ↑ and ↓ to choose an option and Return to apply it. [Grid and shortcuts](/docs/grid#freeze-rows-and-columns).

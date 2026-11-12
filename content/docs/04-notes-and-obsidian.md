@@ -54,7 +54,7 @@ The handoff uses the Obsidian command line and the configured vault’s Daily No
 
 Open **Scratch → Sheets** in Obsidian’s file explorer. Each saved sheet has its own named note with the table, notes and save date. Add your own Obsidian content outside Scratch’s generated section so it survives a resave.
 
-The first save creates **Scratch Sheets.base**. Open it from the command palette to find saved sheets by name and date. The table and linked values are snapshots at export time. To refresh them, save the sheet again from Scratch.
+The first save creates **Scratch Sheets.base**. Open it from the command palette to find saved sheets by name and date. The table and linked values are snapshots at export time. To refresh them, save the sheet again from Scratch. A saved note uses the sheet’s current sort order and includes rows hidden by a filter.
 
 Use **Copy Markdown** or **Save Markdown File** in the notes menu to take the same notes elsewhere.
 
@@ -66,7 +66,7 @@ Edit the cells in either app, then run **Sync Editable Table with Obsidian** aga
 
 Install the **Power Tables** community plugin in Obsidian to edit and recalculate compatible formulas there. The first row is row 1 in both apps. Keep the table’s row and column count fixed when editing in Obsidian. To extend it, add cells at the right or bottom in Scratch and sync. The editable table can use up to 64 KB of Markdown. Formulas with complex quoting and Power Tables cell styles can stop a sync until you simplify those cells.
 
-The command syncs cell values and formulas on demand. Use **Save Sheet to Obsidian** or **Send to ryn** to include your Scratch Notes in a dated copy. You can write in the editable note above or below the table.
+The command syncs cell values and formulas on demand. Sort in Scratch and sync to send the new row order. Sync compares cells by address, so sync any Obsidian edits before sorting to reduce conflicts. Use **Save Sheet to Obsidian** or **Send to ryn** to include your Scratch Notes in a dated copy. You can write in the editable note above or below the table.
 
 ## Open an export in Scratch
 
