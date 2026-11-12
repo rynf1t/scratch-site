@@ -82,7 +82,7 @@ Select a cell in the column to filter and choose **Filter Rows**. Type a word, n
 
 The first row stays visible by default. Choose **Filter Including First Row** to include it when it is unfrozen. Arrow keys and cell entry skip hidden rows. The footer shows how many rows match. Click the filter button in the footer to clear it. Jumping directly to a hidden address also clears the filter.
 
-A filter lasts for the session and keeps the underlying rows and addresses intact. Selection operations and calculations still use the selected addresses. Exports and Obsidian sync include all rows within the chosen range. Save a CSV to open the values and row order in Excel or import them into Google Sheets. Freeze panes and Scratch filters are view settings, so set those up in the destination app if you need them there.
+A filter lasts for the session and keeps the underlying rows and addresses intact. Selection operations and calculations still use the selected addresses. Exports and Obsidian sync include all rows within the chosen range. CSV carries the values and current sort order. Freeze panes and Scratch filters are view settings, so set them up in the destination app if you need them there.
 
 ## Resize the window
 
@@ -101,6 +101,8 @@ Drag the sheet name past the edge of the Scratch panel and release. You can also
 Select a single range and drag the export icon next to the sheet name. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click the export icon to open the CSV save dialog.
 
 Use **Export Selection as CSV** or **Export Sheet as CSV** from the sheet menu or command palette to choose where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle. If a drop does not land, click the export icon to save the CSV and open it from the destination app.
+
+In Excel, import with **Data → Get Data → From Text/CSV** to read the UTF-8 text correctly. In Google Sheets, use **File → Import → Upload** and choose a comma separator. [Excel import guide](https://support.microsoft.com/en-gb/excel/import-data-from-a-csv-html-or-text-file) · [Google Sheets import guide](https://support.google.com/docs/answer/12236443?hl=en).
 
 ## Format a range
 
