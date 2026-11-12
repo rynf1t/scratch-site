@@ -37,6 +37,8 @@ Copying or pasting cell data, filling, replaying commands, comparing scenarios, 
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.
 
+When you reopen Scratch, it uses the display under your pointer. Move or resize the compact window there to set that display’s layout. Scratch remembers a separate position and size for each display, including displays you disconnect and reconnect.
+
 In compact mode, opening Notes widens the window when there’s room on the display. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
 
 ## Format a range
