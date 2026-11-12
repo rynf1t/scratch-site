@@ -25,6 +25,14 @@ Drag from one cell to another to select a range. Hold Shift when you start the d
 
 Press ⌘F to search displayed values, formulas or notes. Return goes to a match. Escape returns to the pane where you opened Find. Find shows the first 80 matches.
 
+## Select separate ranges
+
+Select the first range, then ⌘-click a cell or hold ⌘ while dragging to add another range. From the keyboard, open **Add Range to Selection** in the command palette and enter an address such as `D2:F4`.
+
+Formatting, Delete and **Copy Result** apply across the selection. Overlapping ranges count each cell once. Undo restores the edits and the selection. Press Escape to keep the latest range.
+
+Copying or pasting cell data, filling, replaying commands, comparing scenarios, viewing selection history and sending selected cells to Obsidian each use one range. Scratch saves the latest range when you leave the sheet or quit.
+
 ## Resize the window
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.
