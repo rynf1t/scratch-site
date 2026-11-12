@@ -55,6 +55,12 @@ Click **ƒx** on a formula cell to see the intermediate results and jump to its 
 
 Open **Command Palette** from the ⋯ menu or press its shortcut (⇧⌘P by default). Type a cell address to jump to it, or try `12 kg to lb` to copy a unit conversion. Currency formatting sets how a value is displayed. It does not fetch exchange rates. [Keyboard Shortcuts](/docs/shortcuts).
 
+### Convert currency
+
+Type `100 AUD to USD` in the command palette. Choose **Fetch ECB Rates** the first time. Scratch shows the converted amount, exchange rate, ECB publication date and the time Scratch fetched it. Choose **Copy** to put the converted number on the clipboard.
+
+Saved rates work offline. After one hour, or after a failed refresh, the palette labels the rate **Saved**. Choose **Refresh ECB Rates** to check for a newer snapshot. A copied number stays fixed when rates change. [ECB reference rates](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
+
 Select numbers and press ⌘Return to insert the suggested calculation. Press ⇧⌘C to copy the selected result or sum. **Pin Result** keeps the active cell’s formatted value in a small window above other apps. It updates when the source changes and lasts until Scratch quits.
 
 To extend a value, series or formula, drag the small square at the selection’s bottom-right corner. The grid scrolls if you hold the pointer at the edge. Release to apply the preview, or press Escape to cancel.
@@ -64,3 +70,11 @@ Each sheet has 1,000 rows and 64 columns. Formula references stay within the cur
 Use **Show Selection History** to compare and restore older cell entries and formats after a restart. [Selection History](/docs/history).
 
 Use **Start Recording** to save a sequence of fill, format and clear commands for another range. [Record and Replay](/docs/replay).
+
+## Check inputs as you edit
+
+Select a range and choose **Check for Numbers**, **Check for Positive Numbers**, or **Check for Duplicates** in the command palette. Apply more than one check to the same range if needed. Blank cells are allowed. Duplicate text matches regardless of case or spaces at the start or end.
+
+An orange marker shows which cells need attention. Select a marked cell to see what to fix beside it. Formula errors such as division by zero are checked automatically. Use **Inspect Formula** to follow a formula error to its source. [Formula Microscope](/docs/formula-microscope).
+
+Use **Manage Input Checks** to remove a rule. Undo restores the rule or a recent edit.

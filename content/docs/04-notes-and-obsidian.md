@@ -16,6 +16,12 @@ Scratch remembers your preferred width across sheets and launches. If the window
 
 Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch saves the formatting as Markdown.
 
+## Annotate a cell or range
+
+Select a cell or range and choose **Annotate Selection** in the command palette. Write up to 2,000 characters and click **Save** or press ⌘Return. A marker appears at the top left of the first cell.
+
+Click the marker to edit or delete the annotation. Use **Find Annotations** to search this sheet by address or text and jump to its range. Annotations are saved with the workbook. Undo can restore a deleted annotation.
+
 ## Put a live result in a note
 
 Select a cell and press ⌥⌘L to insert its live value. The value changes with its source cell. Click it or press ⌥Return on the selected note link to go to the source.
