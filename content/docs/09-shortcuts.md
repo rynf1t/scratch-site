@@ -17,7 +17,7 @@ group: Start
 
 If another app intercepts a shortcut, click **Notes** or choose **Command Palette** from the ⋯ menu while you change the binding. For example, try ⌃⌥N for Notes and ⌃⌥P for the palette if those combinations are available on your Mac. Scratch flags conflicts with its own shortcuts.
 
-Open the command palette and type **Freeze**, **Sort Rows**, **Filter Rows** or **Clear Row Filter**. Tab moves through the sort and filter controls. In Filter, type to update the results and press Return or Escape to close the panel. [Grid and shortcuts](/docs/grid#freeze-rows-and-columns).
+Open the command palette and type **Freeze**, **Sort Rows**, **Filter Rows** or **Clear Row Filter**. Tab moves through the sort and filter controls. In Sort, choose an order and click **Apply Sort**. In Filter, type to update the results and press Return to keep them. Press Escape to cancel the preview. [Grid and shortcuts](/docs/grid#freeze-rows-and-columns).
 
 Use **Dock Notes Left**, **Dock Notes Right**, **Detach Notes** or their Grid equivalents in the command palette to arrange the workspace from the keyboard. ⌥⌘J also switches focus between the floating windows. [Move or detach panes](/docs/grid#move-or-detach-panes).
 
