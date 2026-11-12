@@ -13,10 +13,10 @@ export default {
 		title: 'A spreadsheet you can pull up anywhere',
 		lead: 'Press ⌥ Space for a small grid over the app you’re in. Work out the numbers, jot down what they mean, and pick up where you left off.',
 		image: {
-			src: '/grid.webp',
-			alt: 'Scratch showing a formula typed directly into the selected cell, with a SUM suggestion beneath it',
-			width: 880,
-			height: 660
+			src: '/docs/hero-light.webp',
+			alt: 'Scratch on Weekend expenses with five amounts and the SUM argument hint beneath A6.',
+			width: 1000,
+			height: 720
 		},
 		link: { label: 'Open the Scratch guide', href: '/docs' }
 	},

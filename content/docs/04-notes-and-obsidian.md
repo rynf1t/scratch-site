@@ -10,6 +10,17 @@ group: Guides
 
 Drag the **Notes** header grip to the left, right, top or bottom edge of the grid window. Drop it outside to put Notes in its own window. Drag the grip back to a highlighted edge to dock. Click the grip for the same options without dragging. The floating editor follows the current sheet and keeps its window position when you hide and show it. [Move or detach panes](/docs/grid#move-or-detach-panes).
 
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Notes moves from the right of the grid to the bottom and back." poster="/docs/notes-live-light.webp" width="1560" height="1060">
+<source src="/docs/notes-dock-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/notes-live-light.webp" alt="Notes moves from the right of the grid to the bottom and back." width="1560" height="1060" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Notes moves from the right of the grid to the bottom and back." poster="/docs/notes-live-dark.webp" width="1560" height="1060">
+<source src="/docs/notes-dock-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/notes-live-dark.webp" alt="Notes moves from the right of the grid to the bottom and back." width="1560" height="1060" loading="lazy" decoding="async">
+</figure>
+
 ## Resize Notes
 
 Drag the dotted divider to change how much room each pane gets. Double-click to reset it or press Escape during a drag to cancel. The palette offers **Widen Notes**, **Narrow Notes** and **Reset Notes Width** at the sides. At the top or bottom, use **Taller Notes**, **Shorter Notes** and **Reset Notes Height**. Resize floating Notes from its window edge.
@@ -42,6 +53,17 @@ The command palette also inserts cell and range links, live tables, bar charts, 
 
 A live table previews up to six rows and four columns. Copy or send the note for the full table. A chart accepts one row or up to two columns and previews up to eight positions. Click a bar to open its source cell. Markdown exports include the chart’s source data as a table.
 
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Insert the selected budget cells as a live table in Notes, alongside the chart." poster="/docs/notes-live-light.webp" width="1560" height="1060">
+<source src="/docs/notes-table-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/notes-live-light.webp" alt="Insert the selected budget cells as a live table in Notes, alongside the chart." width="1560" height="1060" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Insert the selected budget cells as a live table in Notes, alongside the chart." poster="/docs/notes-live-dark.webp" width="1560" height="1060">
+<source src="/docs/notes-table-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/notes-live-dark.webp" alt="Insert the selected budget cells as a live table in Notes, alongside the chart." width="1560" height="1060" loading="lazy" decoding="async">
+</figure>
+
 ## Repair a note link
 
 Scratch saves a stable reference for each live note link. Renaming a sheet and editing its values preserve the link. If you delete the source sheet, use **Restore Deleted Sheet** to recover it and reconnect the link.
@@ -55,6 +77,11 @@ Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated 
 Choose **Send Selection and Notes** in the palette to append just that range and its notes to the daily note. Choose **Save Sheet to Obsidian** to update just the saved sheet copy.
 
 The handoff uses the Obsidian command line and the configured vault’s Daily Notes settings. The local preview targets the `ryn` vault by default. [Set up the Obsidian CLI](https://obsidian.md/help/cli).
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/notes-delivery-light.webp" alt="The Notes pane shows the Send to ryn button and a receipt with the daily note date." width="1560" height="1060" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/notes-delivery-dark.webp" alt="The Notes pane shows the Send to ryn button and a receipt with the daily note date." width="1560" height="1060" loading="lazy" decoding="async">
+</figure>
 
 ## Save a dated sheet note
 
@@ -85,3 +112,8 @@ Click **Open in Scratch** in an exported note to return to its source. A sheet e
 Choose **Search Obsidian Vault** in the command palette, then type at least two characters from a note’s title or text. Results show a matching snippet and the folder, which helps when two notes have the same title. Press Return to open the result in Obsidian or ⌥Return to insert its link into Scratch Notes.
 
 The first search builds a local index in memory. Scratch refreshes it when vault files change. Search covers the first 128 KiB of each Markdown note and shows up to 20 matches. If the vault is unavailable, open it in Obsidian and choose **Retry Vault Lookup**.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/vault-search-light.webp" alt="The Obsidian search shows the Weekend budget note from the demo vault." width="1560" height="1060" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/vault-search-dark.webp" alt="The Obsidian search shows the Weekend budget note from the demo vault." width="1560" height="1060" loading="lazy" decoding="async">
+</figure>

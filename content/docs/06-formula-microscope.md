@@ -18,6 +18,11 @@ Named ranges resolve to the cells they cover. For a cross-sheet reference, the m
 
 Set A1 to `0`, B1 to `=12/A1` and C1 to `=B1+1`. Inspect C1 to see the path through B1 to A1. Choose **Go to A1** to jump to the zero divisor. For an error inside the formula itself, such as `=1/0`, the microscope shows the failing step. A formula Scratch cannot parse shows the error above the expression.
 
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/formula-error-light.webp" alt="The Formula Microscope traces a division error to the zero in B2 and offers a jump to that cell." width="840" height="472" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/formula-error-dark.webp" alt="The Formula Microscope traces a division error to the zero in B2 and offers a jump to that cell." width="840" height="472" loading="lazy" decoding="async">
+</figure>
+
 ## Match formula references to the grid
 
 Expand the formula bar to see each reference in a different colour. The same colour outlines its cells in the grid. Repeated references to the same range share a colour.

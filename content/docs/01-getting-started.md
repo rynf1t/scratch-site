@@ -19,6 +19,17 @@ Click Scratch’s menu bar icon or press ⌥ Space. Press Escape on the grid to 
 3. Press Shift+Up five times to select A1:A5. Press Return to show the total.
 4. Change one of the inputs. The total updates automatically.
 
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Select five values, enter SUM in A6 and extend the reference to A1:A5 with Shift and Up." poster="/docs/first-total-light.webp" width="1080" height="700">
+<source src="/docs/first-total-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/first-total-light.webp" alt="Select five values, enter SUM in A6 and extend the reference to A1:A5 with Shift and Up." width="1080" height="700" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Select five values, enter SUM in A6 and extend the reference to A1:A5 with Shift and Up." poster="/docs/first-total-dark.webp" width="1080" height="700">
+<source src="/docs/first-total-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/first-total-dark.webp" alt="Select five values, enter SUM in A6 and extend the reference to A1:A5 with Shift and Up." width="1080" height="700" loading="lazy" decoding="async">
+</figure>
+
 Use ⇧⌘N to create a sheet and ⌘K to switch sheets. Each sheet has its own grid, notes and column widths. Scratch autosaves the workbook locally. **Delete Current Sheet** removes a sheet from the workbook view. **Restore Deleted Sheet** recovers it, including its notes, after a restart.
 
 ## Change the shortcuts

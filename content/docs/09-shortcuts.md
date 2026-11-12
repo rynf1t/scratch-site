@@ -26,3 +26,8 @@ Choose **Tables** in the command palette to find a table or its actions. **Creat
 Use **Hide Selected Rows**, **Hide Selected Columns**, **Show All Rows**, **Show All Columns** or **Fit Row Height** in the command palette. Option-drag a row or column header to move it. [Move, hide or resize rows and columns](/docs/grid#move-hide-or-resize-rows-and-columns).
 
 Find **New Workbook**, **Open Workbook**, **Open Default Workbook**, **Archive Current Sheet**, **Import Excel Values** and TSV export in the command palette. [Workbooks and sheet archive](/docs/grid#workbooks-and-sheet-archive).
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/palette-shortcuts-light.webp" alt="The command palette shows formatting actions with their keyboard shortcuts." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/palette-shortcuts-dark.webp" alt="The command palette shows formatting actions with their keyboard shortcuts." width="1280" height="840" loading="lazy" decoding="async">
+</figure>

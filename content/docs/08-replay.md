@@ -16,3 +16,14 @@ Scratch can record **Fill Down**, **Fill Right**, **Clear Cell Contents** and ce
 4. Press Return to apply the replay as one edit, or Escape to discard the preview. Press ⌘Z to undo the applied replay.
 
 Each step uses the new selection’s contents and formatting. Relative references shift as they do with ordinary Fill Down and Fill Right. Scratch saves named replays on this Mac. Use **Remove Saved Replay** in the command palette to remove one.
+
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Record fill and formatting commands, then preview the changes on the Sunday receipts." poster="/docs/replay-preview-light.webp" width="1240" height="780">
+<source src="/docs/replay-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/replay-preview-light.webp" alt="Record fill and formatting commands, then preview the changes on the Sunday receipts." width="1240" height="780" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Record fill and formatting commands, then preview the changes on the Sunday receipts." poster="/docs/replay-preview-dark.webp" width="1240" height="780">
+<source src="/docs/replay-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/replay-preview-dark.webp" alt="Record fill and formatting commands, then preview the changes on the Sunday receipts." width="1240" height="780" loading="lazy" decoding="async">
+</figure>

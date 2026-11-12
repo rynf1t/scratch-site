@@ -29,15 +29,30 @@ Shift+Tab and Shift+Return reverse direction. Tab wraps within a selected block.
 
 Drag from one cell to another to select a range. Hold Shift when you start the drag to extend the current selection from its original cell. Hold the pointer at a grid edge to keep scrolling and selecting. Move back inside the grid to pause scrolling, or release to finish.
 
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-selection-light.webp" alt="The Weekend budget range A1:C5 is selected, with its dimensions beside the drag endpoint." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-selection-dark.webp" alt="The Weekend budget range A1:C5 is selected, with its dimensions beside the drag endpoint." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
+
 While dragging, Scratch shows the selection’s rows × columns. The active cell stands out inside the selected block. Drag the border of a populated selection to move its cells, or hold Option to copy them. The destination shows **Move** or **Copy** and previews the contents. A copy shifts relative references, and a move keeps formula addresses as written. Cell annotations and links stay at their existing addresses. Occupied destinations are protected, and Escape cancels the drag.
 
 Press ⌘F to search displayed values, formulas or notes. Return goes to a match. Escape returns to the pane where you opened Find. Find shows the first 80 matches.
 
 After opening a match, press ⌘F then Return, or choose **Back to Find Origin** in the command palette. Scratch restores your grid selection and scroll position, or your cursor and selection in Notes if you started there. The return position lasts until you use it, open another match or leave the sheet.
 
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-find-origin-light.webp" alt="Find shows Back to Find Origin with the previous range, A1:A5." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-find-origin-dark.webp" alt="Find shows Back to Find Origin with the previous range, A1:A5." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
+
 ## Complete a formula
 
 Type `=su` in a cell to see `SUM(values, …)` and what the function does. Press Tab or click the suggestion to insert `SUM(` and keep typing. Square brackets indicate optional arguments. For example, `XLOOKUP` takes a lookup key, a lookup range, a result range and an optional fallback.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-formula-help-light.webp" alt="The inline SUM suggestion lists its arguments and shows the Tab key." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-formula-help-dark.webp" alt="The inline SUM suggestion lists its arguments and shows the Tab key." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
 
 ## Select separate ranges
 
@@ -70,6 +85,11 @@ Use **Tables** to jump to a table by name. With the cursor inside a table, the p
 Select a rectangle and choose **Format → Cell Borders**. Choose outside, inside, all edges, a bottom rule, or clear borders. The grid previews each choice. Click **Apply** or press Return to save it. Press Escape to cancel or ⌘Z to undo the change.
 
 Use **Format → Format as Table** to preview a bold header, alternating rows, and a rule above the last row. From a single cell, Scratch uses its named table or the connected data block. Drag across the cells first to set the exact range. The last-row option styles the row and keeps its current values and formulas. Use **Tables** to name a range for sorting, filtering, or export.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-format-light.webp" alt="Format as Table offers header, alternating row and last-row rule options before applying." width="496" height="296" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-format-dark.webp" alt="Format as Table offers header, alternating row and last-row rule options before applying." width="496" height="296" loading="lazy" decoding="async">
+</figure>
 
 ## Duplicate a sheet or import a file
 
@@ -107,6 +127,11 @@ Drag the bottom edge of a row header to set its height. Double-click the edge or
 Select B2, click **Freeze**, and choose **Freeze Above and Left of Selection** to keep row 1 and column A in view as you scroll. **Freeze Top Row** and **Freeze First Column** work independently. Find all three in the sheet menu under **Freeze Panes**, or in the command palette.
 
 Drag the blue grip at the top of a vertical divider or the left end of a horizontal divider. The boundary snaps to a row or column as you drag. Release to save it or press Escape to cancel. **Unfreeze Panes** restores ordinary scrolling. Scratch remembers the boundary per sheet and makes room for scrolling cells when you shrink the window.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-filter-light.webp" alt="A frozen header and first column stay visible while the budget filter shows travel rows." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-filter-dark.webp" alt="A frozen header and first column stay visible while the budget filter shows travel rows." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
 
 ## Sort rows
 
@@ -165,6 +190,32 @@ Use **Archive Current Sheet** to remove it from the sheet picker while keeping i
 Use **Export Sheet as TSV** or **Export Selection as TSV** for tab-separated values. Use **Import CSV or TSV** to bring the file back into a new sheet.
 
 Choose **Export Workbook Values to Excel** for an `.xlsx` file containing the sheets and their calculated values. **Import Excel Values** adds the file’s worksheets to the current workbook. Import reads the results Excel saved for formula cells. If a formula has no saved result, recalculate and save it in the spreadsheet app before importing. Scratch workbook files keep editable formulas, formatting and Notes. Excel exchange carries values. A file can include up to 32 sheets, and each sheet must fit within 2,000 rows and 96 columns.
+
+## Preview paste and fill
+
+See how a paste will land before applying it. Drag the fill handle to extend a series of dates. [Capture and paste](/docs/capture).
+
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="The paste preview switches from Values to Transpose and Split before applying." poster="/docs/grid-paste-light.webp" width="1280" height="840">
+<source src="/docs/paste-modes-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/grid-paste-light.webp" alt="The paste preview switches from Values to Transpose and Split before applying." width="1280" height="840" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="The paste preview switches from Values to Transpose and Split before applying." poster="/docs/grid-paste-dark.webp" width="1280" height="840">
+<source src="/docs/paste-modes-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/grid-paste-dark.webp" alt="The paste preview switches from Values to Transpose and Split before applying." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
+
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Drag the date range’s fill handle down to extend the series through 25 November." poster="/docs/date-fill-light.webp" width="1280" height="840">
+<source src="/docs/date-fill-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/date-fill-light.webp" alt="Drag the date range’s fill handle down to extend the series through 25 November." width="1280" height="840" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Drag the date range’s fill handle down to extend the series through 25 November." poster="/docs/date-fill-dark.webp" width="1280" height="840">
+<source src="/docs/date-fill-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/date-fill-dark.webp" alt="Drag the date range’s fill handle down to extend the series through 25 November." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
 
 ## Format a range
 

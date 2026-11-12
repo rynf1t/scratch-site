@@ -10,6 +10,17 @@ group: Guides
 
 Copy a column of numbers or lines such as `Lunch $12.50`. The new sheet includes a live total. Press ⇧⌘C to copy the total or ⇧⌘J to send the table and notes to Obsidian.
 
+<figure class="scratch-media">
+<video class="scratch-light" controls muted loop playsinline preload="none" aria-label="Copied café amounts become a Scratch sheet with a calculated total of 29.80." poster="/docs/clipboard-total-light.webp" width="1120" height="780">
+<source src="/docs/capture-demo-light.mp4" type="video/mp4">
+</video>
+<img class="scratch-light scratch-poster" src="/docs/clipboard-total-light.webp" alt="Copied café amounts become a Scratch sheet with a calculated total of 29.80." width="1120" height="780" loading="lazy" decoding="async">
+<video class="scratch-dark" controls muted loop playsinline preload="none" aria-label="Copied café amounts become a Scratch sheet with a calculated total of 29.80." poster="/docs/clipboard-total-dark.webp" width="1120" height="780">
+<source src="/docs/capture-demo-dark.mp4" type="video/mp4">
+</video>
+<img class="scratch-dark scratch-poster" src="/docs/clipboard-total-dark.webp" alt="Copied café amounts become a Scratch sheet with a calculated total of 29.80." width="1120" height="780" loading="lazy" decoding="async">
+</figure>
+
 ## Read a screenshot
 
 Use ⌃⇧⌘4 to copy a region of the screen. Press ⌥⇧ Space or paste the image with ⌘V in Scratch. Apple Vision reads the screenshot on your Mac. Scratch uses the rightmost amount it recognises in each row. Crop to the amount column if the screenshot has several.
@@ -19,6 +30,11 @@ Select a row to inspect its amount beside its source crop in **Review Capture**.
 Scratch shows the sum of the detail rows and compares it with a recognised printed total. The pane shows the difference when they disagree. Mixed currencies and invalid amounts leave the calculated total unavailable. The source image and review marks are saved with the workbook.
 
 Click **Append**, choose another sheet, then enter the destination columns in item and amount order, with a currency column if the capture has one. For example, enter `B, D` to put items in B and amounts in D. Scratch previews the range below the last populated row in those columns and remembers the mapping for that sheet. Only reviewed detail rows append. The source capture remains available, and ⌘Z undoes the append as one edit.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/receipt-review-light.webp" alt="The Harbour Kitchen receipt sits beside its recognised rows. Scratch compares the printed and calculated totals." width="1520" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/receipt-review-dark.webp" alt="The Harbour Kitchen receipt sits beside its recognised rows. Scratch compares the printed and calculated totals." width="1520" height="840" loading="lazy" decoding="async">
+</figure>
 
 ## Choose how to paste
 
