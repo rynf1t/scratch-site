@@ -6,6 +6,12 @@ group: Guides
 
 **Click Notes to show or hide the current sheet’s notes. The default shortcuts are ⌘J to show or hide Notes and ⌥⌘J to switch focus between Notes and the grid.** [Change the shortcuts](/docs/shortcuts).
 
+## Resize Notes
+
+Drag the dotted divider between the grid and Notes to change how much room each pane gets. Double-click it to reset the width. While Notes is open, the command palette offers **Widen Notes**, **Narrow Notes**, and **Reset Notes Width**.
+
+Scratch remembers your preferred width across sheets and launches. If the window gets too narrow, Notes temporarily shrinks to leave room for the grid. Widen the window or click **Expand** to get that space back.
+
 ## Format a note
 
 Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch saves the formatting as Markdown.

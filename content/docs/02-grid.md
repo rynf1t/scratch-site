@@ -27,7 +27,7 @@ Press ⌘F to search displayed values, formulas or notes. Return goes to a match
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.
 
-Opening Notes gives the grid more width when there is room on the display. Notes can stay open when you expand the window. Click **Notes** to hide or show it without changing the expanded window size.
+In compact mode, opening Notes widens the window when there’s room on the display. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
 
 ## Format a range
 
