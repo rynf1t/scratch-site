@@ -12,7 +12,7 @@ Drag the **Notes** header grip to either edge of the grid window, or drop it out
 
 ## Resize Notes
 
-Drag the dotted divider between the grid and Notes to change how much room each pane gets. Double-click it to reset the width. While Notes is open, the command palette offers **Widen Notes**, **Narrow Notes**, and **Reset Notes Width**.
+Drag the dotted divider between the grid and Notes to change how much room each pane gets. Double-click it to reset the width. While Notes is docked, the command palette offers **Widen Notes**, **Narrow Notes**, and **Reset Notes Width**. Resize floating Notes from the window edge.
 
 Scratch remembers your preferred width across sheets and launches. If the window gets too narrow, Notes temporarily shrinks to leave room for the grid. Widen the window or click **Expand** to get that space back.
 
