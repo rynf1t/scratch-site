@@ -33,6 +33,12 @@ While dragging, Scratch shows the selection’s rows × columns. The active cell
 
 Press ⌘F to search displayed values, formulas or notes. Return goes to a match. Escape returns to the pane where you opened Find. Find shows the first 80 matches.
 
+After opening a match, press ⌘F then Return, or choose **Back to Find Origin** in the command palette. Scratch restores your grid selection and scroll position, or your cursor and selection in Notes if you started there. The return position lasts until you use it, open another match or leave the sheet.
+
+## Complete a formula
+
+Type `=su` in a cell to see `SUM(values, …)` and what the function does. Press Tab or click the suggestion to insert `SUM(` and keep typing. Square brackets indicate optional arguments. For example, `XLOOKUP` takes a lookup key, a lookup range, a result range and an optional fallback.
+
 ## Select separate ranges
 
 Select the first range, then ⌘-click a cell or hold ⌘ while dragging to add another range. From the keyboard, open **Add Range to Selection** in the command palette and enter an address such as `D2:F4`.
