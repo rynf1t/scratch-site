@@ -6,6 +6,10 @@ group: Guides
 
 **Type on the grid to edit the selected cell. Return commits and moves down. Tab commits and moves right, or accepts the visible formula suggestion first.**
 
+## Grid toolbar
+
+Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, and **Export** offers a CSV of the selection or sheet. The freeze and filter buttons highlight while those features are active.
+
 ## Move and select
 
 | Keys | Action |
@@ -64,13 +68,13 @@ Use ⌘Z to undo the edit or ⇧⌘Z to redo it. If an insertion would push data
 
 ## Freeze rows and columns
 
-Select B2 and choose **Freeze Above and Left of Selection** to keep row 1 and column A in view as you scroll. **Freeze Top Row** and **Freeze First Column** work independently. Find all three in the sheet menu under **Freeze Panes**, or in the command palette.
+Select B2, click **Freeze**, and choose **Freeze Above and Left of Selection** to keep row 1 and column A in view as you scroll. **Freeze Top Row** and **Freeze First Column** work independently. Find all three in the sheet menu under **Freeze Panes**, or in the command palette.
 
 Drag the blue grip at the top of a vertical divider or the left end of a horizontal divider. The boundary snaps to a row or column as you drag. Release to save it or press Escape to cancel. **Unfreeze Panes** restores ordinary scrolling. Scratch remembers the boundary per sheet and makes room for scrolling cells when you shrink the window.
 
 ## Sort rows
 
-Select a cell in the column to sort by and choose **Sort Rows**. Scratch shows the affected rows, the key column and whether the first row will stay in place. Pick ascending or descending. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
+Select a cell in the column to sort by and click **Sort**. Scratch shows the affected rows, the key column and whether the first row will stay in place. Pick ascending or descending. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
 
 Scratch moves every cell in each affected row, including cells beyond the selected columns. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal keys keep their order.
 
@@ -78,7 +82,7 @@ Formulas, annotations, named ranges and live note links follow the cells they re
 
 ## Filter rows
 
-Select a cell in the column to filter and choose **Filter Rows**. Type a word, number or fragment and press Return. Scratch matches the text you see in the column, including formatted values and formula results. Case and accents are ignored. To limit the filter to a row band, select those rows before opening the command.
+Select a cell in the column to filter and click **Filter**. Type a word, number or fragment and press Return. Scratch matches the text you see in the column, including formatted values and formula results. Case and accents are ignored. To limit the filter to a row band, select those rows before opening the command.
 
 The first row stays visible by default. Choose **Filter Including First Row** to include it when it is unfrozen. Arrow keys and cell entry skip hidden rows. The footer shows how many rows match. Click the filter button in the footer to clear it. Jumping directly to a hidden address also clears the filter.
 
@@ -92,15 +96,23 @@ When you reopen Scratch, it uses the display under your pointer. Move or resize 
 
 In compact mode, opening Notes widens the window when there’s room on the display. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
 
+## Move or detach panes
+
+Show **Notes**, then drag the grip beside the sheet name or on the **Notes** header. Drop on a highlighted left or right edge to arrange the panes side by side. Drop outside the window to separate them. Both panes stay editable. Notes follows the sheet selected in the grid.
+
+Drag a detached grip onto the other window’s highlighted edge to dock it. Press Escape during a drag to cancel. Click either grip for its menu, or choose **Dock Notes Left**, **Dock Notes Right**, **Dock Grid Left**, **Dock Grid Right**, **Detach Notes** or **Detach Grid** in the command palette.
+
+Scratch remembers which side Notes is on, the docked width, and the floating window positions across launches. Closing the floating Notes window hides it. Click **Notes** to bring it back to its last position.
+
 ## Open a sheet in its own window
 
 Drag the sheet name past the edge of the Scratch panel and release. You can also choose **Open Sheet in Window** from the sheet menu or command palette. The larger window keeps its own scroll position and follows edits to that sheet. The floating panel keeps its place. To edit, double-click a cell in the larger window to open it in Scratch.
 
 ## Drag out a table or export CSV
 
-Select a single range and drag the export icon next to the sheet name. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click the export icon to open the CSV save dialog.
+Select a single range and drag **Export** from the grid toolbar. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click **Export** to choose a CSV of the selection or the sheet.
 
-Use **Export Selection as CSV** or **Export Sheet as CSV** from the sheet menu or command palette to choose where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle. If a drop does not land, click the export icon to save the CSV and open it from the destination app.
+Choose **Export Selection as CSV** or **Export Sheet as CSV** and pick where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle. If a drop does not land, save the CSV through **Export** and open the file from the destination app.
 
 In Excel, import with **Data → Get Data → From Text/CSV** to read the UTF-8 text correctly. In Google Sheets, use **File → Import → Upload** and choose a comma separator. [Excel import guide](https://support.microsoft.com/en-gb/excel/import-data-from-a-csv-html-or-text-file) · [Google Sheets import guide](https://support.google.com/docs/answer/12236443?hl=en).
 

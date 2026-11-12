@@ -6,6 +6,10 @@ group: Guides
 
 **Click Notes to show or hide the current sheet’s notes. The default shortcuts are ⌘J to show or hide Notes and ⌥⌘J to switch focus between Notes and the grid.** [Change the shortcuts](/docs/shortcuts).
 
+## Move Notes
+
+Drag the **Notes** header grip to either edge of the grid window, or drop it outside to put Notes in its own window. Drag the grip back to a highlighted edge to dock. Click the grip for the same options without dragging. The floating editor follows the current sheet and keeps its window position when you hide and show it. [Move or detach panes](/docs/grid#move-or-detach-panes).
+
 ## Resize Notes
 
 Drag the dotted divider between the grid and Notes to change how much room each pane gets. Double-click it to reset the width. While Notes is open, the command palette offers **Widen Notes**, **Narrow Notes**, and **Reset Notes Width**.
