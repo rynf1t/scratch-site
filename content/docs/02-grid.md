@@ -35,6 +35,21 @@ Formatting, Delete and **Copy Result** apply across the selection. Overlapping r
 
 Copying or pasting cell data, filling, replaying commands, viewing selection history and sending selected cells to Obsidian each use one range. Scratch saves the latest range when you leave the sheet or quit.
 
+## Insert or delete rows and columns
+
+Select a cell or a rectangular range, then open **Rows and Columns** from the sheet menu. You can also find these commands in the command palette.
+
+| Command | What moves |
+| --- | --- |
+| **Insert Rows Above** | Adds a blank row for each selected row. Existing rows move down. |
+| **Insert Columns Before** | Adds a blank column for each selected column. Existing columns move right. |
+| **Delete Rows** | Removes the selected rows. Rows below move up. |
+| **Delete Columns** | Removes the selected columns. Columns to the right move left. |
+
+Formulas, including references such as `$A$1`, follow the cells that move. Inserting inside a referenced range expands it. Deleting part of a range shrinks it. A formula that loses its source shows `#REF!`. Linked notes, pinned results, and screenshot sources follow their cells too.
+
+Use ⌘Z to undo the edit or ⇧⌘Z to redo it. If an insertion would push data or formatting beyond the last row or column, Scratch leaves the sheet as it was.
+
 ## Resize the window
 
 Click **Expand** in the toolbar to fill the usable area of your display. Click **Compact** to return to the previous size. You can also drag the grip at the lower right to set the size yourself or find both commands in the command palette.
@@ -49,7 +64,7 @@ Drag the sheet name past the edge of the Scratch panel and release. You can also
 
 ## Drag out a table or export CSV
 
-Select a single range. Hold Control and drag from inside the selection. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats.
+Select a single range and drag the export icon next to the sheet name. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click the export icon to open the CSV save dialog.
 
 Use **Export Selection as CSV** or **Export Sheet as CSV** from the sheet menu or command palette to choose where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle.
 
