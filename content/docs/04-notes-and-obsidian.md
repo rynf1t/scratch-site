@@ -44,7 +44,7 @@ To point a link to a different range on the sheet that contains the note, select
 
 ## Send the table and notes
 
-Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
+Use **Send to ryn** or its shortcut (⇧⌘J by default). Scratch saves a dated copy under `Scratch/Sheets` and appends the table and notes to today’s daily note. The Notes pane shows the vault, delivery mode and included cells before you send. Once Obsidian confirms the delivery, the pane keeps the note name and an **Open** button. Use **Open Saved Sheet in Obsidian** in the Notes menu to open the dated copy. Sending the same sheet again updates its saved copy and leaves one daily note entry when the content is identical.
 
 Choose **Send Selection and Notes** in the palette to append just that range and its notes to the daily note. Choose **Save Sheet to Obsidian** to update just the saved sheet copy.
 
@@ -62,7 +62,7 @@ Use **Copy Markdown** or **Save Markdown File** in the notes menu to take the sa
 
 In Scratch, choose **Sync Editable Table with Obsidian** from the command palette or the Notes menu. The first sync creates a separate note under `Scratch/Editable Tables` in your configured vault. Use **Open Editable Table in Obsidian** to open it again.
 
-Edit the cells in either app, then run **Sync Editable Table with Obsidian** again. Scratch combines edits to different cells. If you change the same cell to different values in both apps, Scratch lists the conflicting addresses. Make those values agree and sync again. You can undo a pull in Scratch with ⌘Z.
+Edit the cells in either app, then run **Sync Editable Table with Obsidian** again. Scratch combines edits to different cells. If both apps changed the same cell to different values, Scratch shows the Scratch and Obsidian values side by side. Click an address to jump there, choose a value for each cell, then click **Apply and Sync**. If either value changes before you apply, Scratch shows the updated conflict. Use **Review Obsidian Changes** in the Notes menu or command palette to reopen the review. You can undo a pull in Scratch with ⌘Z.
 
 Install the **Power Tables** community plugin in Obsidian to edit and recalculate compatible formulas there. The first row is row 1 in both apps. Keep the table’s row and column count fixed when editing in Obsidian. To extend it, add cells at the right or bottom in Scratch and sync. The editable table can use up to 64 KB of Markdown. Formulas with complex quoting and Power Tables cell styles can stop a sync until you simplify those cells.
 

@@ -15,3 +15,7 @@ An `IF` formula shows which branch ran. Parts Scratch didn’t evaluate are mark
 ## Find a cell behind an error
 
 Set A1 to `0`, B1 to `=12/A1` and C1 to `=B1+1`. Inspect C1 and choose **Go to A1** to jump to the zero divisor. For an error inside the formula itself, such as `=1/0`, the microscope shows the failing step. A formula Scratch cannot parse shows the error above the expression.
+
+## See where a pinned result came from
+
+Select a result and choose **Pin Result** in the command palette. Click the chevron beside **Go to Cell** on the floating card to show the formula, intermediate results and links to its inputs. When a source row came from a screenshot, **View Screenshot Source** opens that row and its image in Scratch. Click the chevron again to return to the number.

@@ -43,6 +43,16 @@ When you reopen Scratch, it uses the display under your pointer. Move or resize 
 
 In compact mode, opening Notes widens the window when there’s room on the display. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
 
+## Open a sheet in its own window
+
+Drag the sheet name past the edge of the Scratch panel and release. You can also choose **Open Sheet in Window** from the sheet menu or command palette. The larger window keeps its own scroll position and follows edits to that sheet. The floating panel keeps its place. To edit, double-click a cell in the larger window to open it in Scratch.
+
+## Drag out a table or export CSV
+
+Select a single range. Hold Control and drag from inside the selection. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats.
+
+Use **Export Selection as CSV** or **Export Sheet as CSV** from the sheet menu or command palette to choose where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle.
+
 ## Format a range
 
 Hover near a column divider to see its grip and resize cursor. Drag it to resize the column or double-click to fit the contents. **Wrap** grows the row. Press ⌥Return in a wrapped cell to insert a line break.
