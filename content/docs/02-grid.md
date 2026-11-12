@@ -59,6 +59,12 @@ Named tables stay in the grid, with a tinted header and outline so you can see w
 
 Use **Tables** to jump to a table by name. With the cursor inside a table, the picker also offers actions to select it, rename it, or remove its name while keeping its cells. Row and column insertions and deletions update the table’s bounds and clear its active filter.
 
+## Add borders or style a table
+
+Select a rectangle and choose **Format → Cell Borders**. Choose outside, inside, all edges, a bottom rule, or clear borders. The grid previews each choice. Click **Apply** or press Return to save it. Press Escape to cancel or ⌘Z to undo the change.
+
+Use **Format → Format as Table** to preview a bold header, alternating rows, and a rule above the last row. From a single cell, Scratch uses its named table or the connected data block. Drag across the cells first to set the exact range. The last-row option styles the row and keeps its current values and formulas. Use **Tables** to name a range for sorting, filtering, or export.
+
 ## Duplicate a sheet or import a file
 
 Choose **Duplicate Sheet** to create a copy beside the current sheet. The copy includes cells, formulas, formatting, notes, named ranges, and capture evidence. Note links within the sheet point to the copied cells. Links to other sheets keep their destinations. Use **Sync Editable Table with Obsidian** to give the copy its own sync destination.
