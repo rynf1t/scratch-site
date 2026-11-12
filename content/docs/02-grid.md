@@ -35,6 +35,18 @@ Formatting, Delete and **Copy Result** apply across the selection. Overlapping r
 
 Copying or pasting cell data, filling, replaying commands, viewing selection history and sending selected cells to Obsidian each use one range. Scratch saves the latest range when you leave the sheet or quit.
 
+## Save a named range
+
+Select one rectangle, choose **Name Selected Range**, and enter a name such as `Monthly totals`. Choose **Go to Named Range** and type part of the name to select those cells again. Names are unique within a sheet and move with their cells when you insert or delete rows and columns. If you delete the cells, Undo brings the range back.
+
+Use **Remove Named Range** to remove the name. Formulas use cell addresses.
+
+## Duplicate a sheet or import a file
+
+Choose **Duplicate Sheet** to create a copy beside the current sheet. The copy includes cells, formulas, formatting, notes, named ranges, and capture evidence. Note links within the sheet point to the copied cells. Links to other sheets keep their destinations. Use **Sync Editable Table with Obsidian** to give the copy its own sync destination.
+
+Choose **Import CSV or TSV** from the sheet menu or command palette, then pick a UTF-8 file. Scratch opens the data in a new sheet named after the file. Quoted fields and embedded line breaks are preserved. Fields beginning with `=` come in as text. Each file can contain up to 1,000 rows and 64 columns and must fit within 10 MB.
+
 ## Insert or delete rows and columns
 
 Select a cell or a rectangular range, then open **Rows and Columns** from the sheet menu. You can also find these commands in the command palette.
