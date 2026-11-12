@@ -23,6 +23,10 @@ Shift+Tab and Shift+Return reverse direction. Tab wraps within a selected block.
 
 Press ⌘F to search displayed values, formulas or notes. Return goes to a match. Escape returns to the pane where you opened Find. Find shows the first 80 matches.
 
+## Resize the window
+
+Drag the grip at the lower right to widen or lengthen the grid. Choose **Expand Window** from the command palette or the settings menu to fill the usable area of your display. **Restore Compact Window** returns to the previous size.
+
 ## Format a range
 
 Drag a column divider to resize it or double-click to fit the contents. **Wrap** grows the row. Press ⌥Return in a wrapped cell to insert a line break.
@@ -30,6 +34,10 @@ Drag a column divider to resize it or double-click to fit the contents. **Wrap**
 Use the **Format** menu for currencies, dates, decimals and text. ⌥⌘1 through ⌥⌘6 apply number, currency, percent, date, text and wrap. Use ⌘B or ⌘I to toggle bold or italic. SUM, SUMIF and SUMIFS results start in bold. Toggle bold off for a particular total, or use **Clear Formatting** to return to the default.
 
 ## Calculate and copy
+
+Type `=SUM(` in a cell or in the formula bar, then drag across the cells to enter a range. Click a single cell to enter its address. Type a comma to pick another range, or press Return to finish the formula. The selection is highlighted while you drag.
+
+Click **ƒx** on a formula cell to see the intermediate results and jump to its references. [Formula Microscope](/docs/formula-microscope).
 
 Open the command palette with ⇧⌘P. Type a cell address to jump to it, or try `12 kg to lb` to copy a unit conversion. Currency formatting sets how a value is displayed. It does not fetch exchange rates.
 
