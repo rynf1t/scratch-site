@@ -8,13 +8,13 @@ group: Guides
 
 ## Move Notes
 
-Drag the **Notes** header grip to either edge of the grid window, or drop it outside to put Notes in its own window. Drag the grip back to a highlighted edge to dock. Click the grip for the same options without dragging. The floating editor follows the current sheet and keeps its window position when you hide and show it. [Move or detach panes](/docs/grid#move-or-detach-panes).
+Drag the **Notes** header grip to the left, right, top or bottom edge of the grid window. Drop it outside to put Notes in its own window. Drag the grip back to a highlighted edge to dock. Click the grip for the same options without dragging. The floating editor follows the current sheet and keeps its window position when you hide and show it. [Move or detach panes](/docs/grid#move-or-detach-panes).
 
 ## Resize Notes
 
-Drag the dotted divider between the grid and Notes to change how much room each pane gets. Double-click it to reset the width. While Notes is docked, the command palette offers **Widen Notes**, **Narrow Notes**, and **Reset Notes Width**. Resize floating Notes from the window edge.
+Drag the dotted divider to change how much room each pane gets. Double-click to reset it or press Escape during a drag to cancel. The palette offers **Widen Notes**, **Narrow Notes** and **Reset Notes Width** at the sides. At the top or bottom, use **Taller Notes**, **Shorter Notes** and **Reset Notes Height**. Resize floating Notes from its window edge.
 
-Scratch remembers your preferred width across sheets and launches. If the window gets too narrow, Notes temporarily shrinks to leave room for the grid. Widen the window or click **Expand** to get that space back.
+Scratch remembers a size for each dock across sheets and launches. When the window is short or narrow, Scratch can temporarily shrink Notes to leave room for the grid. Widen or grow the window to get that space back.
 
 ## Format a note
 
@@ -24,7 +24,7 @@ Use the toolbar for headings, bold, italic, lists, checklists and inline code. C
 
 With Notes open, select plain text and Option-drag from inside the selection to a grid cell. Drop inside the current grid selection to annotate that range. Scratch links the selected text to the annotation and confirms the cell address. Click the underlined text in Notes or open the annotation in the grid. Both open the same editor, and edits appear in both places. Use ⌘Z from the grid to undo the link and restore the original note text.
 
-Select a cell or range and choose **Annotate Selection** in the command palette. Write up to 2,000 characters and click **Save** or press ⌘Return. A marker appears at the top left of the first cell.
+Select a cell or range and choose **Annotate Selection** in the command palette. Start typing as soon as the editor opens. Write up to 2,000 characters and click **Save** or press ⌘Return. A marker appears at the top left of the first cell.
 
 Click the marker or select its cell and click **Annotation** in the grid footer. The **Annotations** button at the bottom of Notes lists the sheet’s annotations. Use **Find Annotations** in the command palette to search by address or text. Annotations are saved with the workbook, and Undo can restore a deleted annotation.
 
@@ -68,7 +68,7 @@ In Scratch, choose **Sync Editable Table with Obsidian** from the command palett
 
 Edit the cells in either app, then run **Sync Editable Table with Obsidian** again. Scratch combines edits to different cells. If both apps changed the same cell to different values, Scratch shows the Scratch and Obsidian values side by side. Click an address to jump there, choose a value for each cell, then click **Apply and Sync**. If either value changes before you apply, Scratch shows the updated conflict. Use **Review Obsidian Changes** in the Notes menu or command palette to reopen the review. You can undo a pull in Scratch with ⌘Z.
 
-Install the **Power Tables** community plugin in Obsidian to edit and recalculate compatible formulas there. The first row is row 1 in both apps. Keep the table’s row and column count fixed when editing in Obsidian. To extend it, add cells at the right or bottom in Scratch and sync. The editable table can use up to 64 KB of Markdown. Formulas with complex quoting and Power Tables cell styles can stop a sync until you simplify those cells.
+Use Obsidian’s **Live Preview** to edit the rendered table or **Reading view** to read it. If an older synced note shows Markdown pipes, run **Sync Editable Table with Obsidian** again to refresh its layout in place. In Source mode, Obsidian shows the raw Markdown. Keep the **Editable table** heading and **Open in Scratch** link so Scratch can find the table on the next sync. Install the **Power Tables** community plugin to recalculate compatible formulas in Obsidian. The first row is row 1 in both apps. Keep the table’s row and column count fixed when editing in Obsidian. To extend it, add cells at the right or bottom in Scratch and sync. The editable table can use up to 64 KB of Markdown. Formulas with complex quoting and Power Tables cell styles can stop a sync until you simplify those cells.
 
 The command syncs cell values and formulas on demand. Sort in Scratch and sync to send the new row order. Sync compares cells by address, so sync any Obsidian edits before sorting to reduce conflicts. Use **Save Sheet to Obsidian** or **Send to ryn** to include your Scratch Notes in a dated copy. You can write in the editable note above or below the table.
 

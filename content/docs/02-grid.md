@@ -94,11 +94,13 @@ Drag the blue grip at the top of a vertical divider or the left end of a horizon
 
 ## Sort rows
 
-Select a cell and click **Sort**, or open a column’s chevron and click **Sort…**. Check the affected range, choose a column, and click **Ascending** or **Descending**. Scratch shows up to four source rows and their values in the proposed order. Click **Apply Sort** to rearrange the rows, or press Escape to leave the sheet as it was. Use **First row is a header** to keep the top row in place. With a single cell selected, Scratch uses the populated row bounds. Select a rectangle spanning several rows to limit the sort to that band.
+Click a cell in the column you want to sort by, then click **Sort**. You can also open the column’s chevron and choose **Sort…**. Check the column name and **Rows to move**, then choose **Ascending** or **Descending** to preview the first four results. Click **Apply Sort** to commit or press Escape to close the preview.
 
-For a sheet-level sort, Scratch moves every cell in each affected row. If the affected rows contain a named table, select a cell inside that table to sort it. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal keys keep their order.
+To sort an Amount column while keeping a Total on row 5, enter `2:4` in **Rows to move**. You can also select B2:B4 before clicking **Sort**. Scratch moves the other cells in those rows with the amounts. A selection that starts below the first populated row includes its first selected row by default. Use **First row is a header** to keep the first row of the scope in place.
 
-Formulas, annotations, named ranges and live note links follow the cells they reference. If moving a row would split a referenced range into separate pieces, Scratch leaves the sheet as it was. Press ⌘Z to undo a sort or ⇧⌘Z to redo it.
+To sort only the columns of a named table, select a cell inside that table. Frozen rows stay put. Numbers and formula results sort by value, text sorts naturally, and blanks go last. Equal values keep their order.
+
+Formulas, annotations, named ranges and live note links follow their cells. If a preview would break up a referenced range, the message names the range and, for a formula on the sheet, its cell. Adjust **Rows to move** to keep the range together. Press ⌘Z to undo a sort or ⇧⌘Z to redo it.
 
 ## Filter rows
 
@@ -114,15 +116,15 @@ Click **Expand** in the toolbar to fill the usable area of your display. Click *
 
 When you reopen Scratch, it uses the display under your pointer. Move or resize the compact window there to set that display’s layout. Scratch remembers a separate position and size for each display, including displays you disconnect and reconnect.
 
-In compact mode, opening Notes widens the window when there’s room on the display. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
+In compact mode, opening Notes makes room beside, above or below the grid according to its dock. In expanded mode, you can show or hide Notes without changing the window size. [Drag the Notes divider](/docs/notes-and-obsidian#resize-notes) to give either pane more room.
 
 ## Move or detach panes
 
-Show **Notes**, then drag the grip beside the sheet name or on the **Notes** header. Drop on a highlighted left or right edge to arrange the panes side by side. Drop outside the window to separate them. Both panes stay editable. Notes follows the sheet selected in the grid.
+Show **Notes**, then drag its header grip to the highlighted left, right, top or bottom edge. Drop outside the window to float Notes. Drag the floating grip back to an edge to dock it. You can also drag the grip beside the sheet name to move or detach the grid.
 
-Drag a detached grip onto the other window’s highlighted edge to dock it. Press Escape during a drag to cancel. Click either grip for its menu, or choose **Dock Notes Left**, **Dock Notes Right**, **Dock Grid Left**, **Dock Grid Right**, **Detach Notes** or **Detach Grid** in the command palette.
+Press Escape during a drag to cancel. Click either grip for its menu. The command palette includes **Dock Notes Left**, **Dock Notes Right**, **Dock Notes Top**, **Dock Notes Bottom**, **Dock Grid Left**, **Dock Grid Right**, **Detach Notes** and **Detach Grid**.
 
-Scratch remembers which side Notes is on, the docked width, and the floating window positions across launches. Closing the floating Notes window hides it. Click **Notes** to bring it back to its last position.
+Scratch remembers the Notes size for each edge and the floating window positions across launches. Moving Notes keeps your selected cells and note text in place. Closing the floating Notes window hides it. Click **Notes** to bring it back to its last position.
 
 ## Open a sheet in its own window
 
