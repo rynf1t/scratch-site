@@ -8,7 +8,7 @@ group: Guides
 
 ## Grid toolbar
 
-Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, **Export** offers a CSV, and **Tables** creates or finds a named table. The freeze and filter buttons highlight while those features are active.
+Use the labeled controls just above the formula bar. **Freeze** keeps headings in view, **Sort** and **Filter** use the selected column, **Export** offers file formats for the current selection or workbook, and **Tables** creates or finds a named table. The freeze and filter buttons highlight while those features are active.
 
 ## Move and select
 
@@ -43,7 +43,7 @@ Copying or pasting cell data, filling, replaying commands, viewing selection his
 
 Select one rectangle, choose **Name Selected Range**, and enter a name such as `Monthly totals`. Choose **Go to Named Range** and type part of the name to select those cells again. Names are unique within a sheet and move with their cells when you insert or delete rows and columns. If you delete the cells, Undo brings the range back.
 
-Use **Remove Named Range** to remove the name. Formulas use cell addresses.
+Use **Remove Named Range** to remove the name. To use a named range in a formula, see [Work across sheets](/docs/grid#work-across-sheets).
 
 ## Named tables
 
@@ -61,7 +61,7 @@ Use **Tables** to jump to a table by name. With the cursor inside a table, the p
 
 Choose **Duplicate Sheet** to create a copy beside the current sheet. The copy includes cells, formulas, formatting, notes, named ranges, and capture evidence. Note links within the sheet point to the copied cells. Links to other sheets keep their destinations. Use **Sync Editable Table with Obsidian** to give the copy its own sync destination.
 
-Choose **Import CSV or TSV** from the sheet menu or command palette, then pick a UTF-8 file. Scratch opens the data in a new sheet named after the file. Quoted fields and embedded line breaks are preserved. Fields beginning with `=` come in as text. Each file can contain up to 1,000 rows and 64 columns and must fit within 10 MB.
+Choose **Import CSV or TSV** from the sheet menu or command palette, then pick a UTF-8 file. Scratch opens the data in a new sheet named after the file. Quoted fields and embedded line breaks are preserved. Fields beginning with `=` come in as text. Each file can contain up to 2,000 rows and 96 columns and must fit within 10 MB.
 
 ## Insert or delete rows and columns
 
@@ -77,6 +77,14 @@ Select a cell or a rectangular range, then open **Rows and Columns** from the sh
 Formulas, including references such as `$A$1`, follow the cells that move. Inserting inside a referenced range expands it. Deleting part of a range shrinks it. A formula that loses its source shows `#REF!`. Linked notes, pinned results, and screenshot sources follow their cells too.
 
 Use ⌘Z to undo the edit or ⇧⌘Z to redo it. If an insertion would push data or formatting beyond the last row or column, Scratch leaves the sheet as it was.
+
+## Move, hide or resize rows and columns
+
+Hold Option and drag a row number or column letter. The blue line shows where it will land. To move several rows or columns together, select their headers first with Shift, then Option-drag one of them. Right-click a header for one-step moves, or use **Move Selected Rows Up** and related commands in the palette. Escape cancels and ⌘Z undoes the move. Formula references, linked ranges and formatting travel with the cells. If the move would split a referenced range, select the rest of the range and try again.
+
+Right-click a row number or column letter and choose **Hide Row** or **Hide Column**. Use **Hide Selected Rows** or **Hide Selected Columns** in the command palette for a block. The grid skips hidden cells as you move. Formulas and exports still include their values. Choose **Show All Rows** or **Show All Columns** to reveal them. Hidden headers stay hidden when you reopen the workbook.
+
+Drag the bottom edge of a row header to set its height. Double-click the edge or choose **Fit Row Height** to restore automatic height and let wrapped text size the row again.
 
 ## Freeze rows and columns
 
@@ -128,6 +136,18 @@ Choose **Export Selection as CSV** or **Export Sheet as CSV** and pick where to 
 
 In Excel, import with **Data → Get Data → From Text/CSV** to read the UTF-8 text correctly. In Google Sheets, use **File → Import → Upload** and choose a comma separator. [Excel import guide](https://support.microsoft.com/en-gb/excel/import-data-from-a-csv-html-or-text-file) · [Google Sheets import guide](https://support.google.com/docs/answer/12236443?hl=en).
 
+## Workbooks and sheet archive
+
+Open the sheet menu and choose **Workbooks → New Workbook** or **Open Workbook**. Each `.scratchbook` file keeps its own sheets, formulas and Notes. Scratch saves the current workbook before switching and reopens the last file at launch. Choose **Open Default Workbook** to return to the original workbook.
+
+Use **Archive Current Sheet** to remove it from the sheet picker while keeping it available to formulas and links. The sheet menu lists archived sheets under **Restore Archived Sheet**. Keep at least one sheet visible.
+
+## TSV and Excel files
+
+Use **Export Sheet as TSV** or **Export Selection as TSV** for tab-separated values. Use **Import CSV or TSV** to bring the file back into a new sheet.
+
+Choose **Export Workbook Values to Excel** for an `.xlsx` file containing the sheets and their calculated values. **Import Excel Values** adds the file’s worksheets to the current workbook. Import reads the results Excel saved for formula cells. If a formula has no saved result, recalculate and save it in the spreadsheet app before importing. Scratch workbook files keep editable formulas, formatting and Notes. Excel exchange carries values. A file can include up to 32 sheets, and each sheet must fit within 2,000 rows and 96 columns.
+
 ## Format a range
 
 Hover near a column divider to see its grip and resize cursor. Drag it to resize the column or double-click to fit the contents. **Wrap** grows the row. Press ⌥Return in a wrapped cell to insert a line break.
@@ -162,11 +182,21 @@ From the keyboard, choose **Place Selection Sum in Cell** or **Place Selection A
 
 To extend a value, series or formula, drag the small square at the selection’s bottom-right corner. The grid scrolls if you hold the pointer at the edge. Release to apply the preview, or press Escape to cancel.
 
-Each sheet has 1,000 rows and 64 columns. Formula references stay within the current sheet. Undo history lasts for the app session.
+Each sheet has 2,000 rows and 96 columns. Undo history lasts for the app session.
 
 Use **Show Selection History** to compare and restore older cell entries and formats after a restart. [Selection History](/docs/history).
 
 Use **Start Recording** to save a sequence of fill, format and clear commands for another range. [Record and Replay](/docs/replay).
+
+## Work across sheets
+
+Use a sheet name and `!` to refer to cells in the same workbook. Put single quotes around names with spaces and double any apostrophe inside the name. For example, `=SUM('Rate Card'!B2:B12)` adds a column from another sheet. References follow a renamed sheet or moved source cells. A circular chain across sheets shows `#CIRC!`.
+
+Use `=SUM(RANGE("Daily total"))` to read a saved range on the current sheet. A name such as `Daily_Total` can also be typed directly as `=SUM(Daily_Total)`.
+
+- `=XLOOKUP(A2,Prices!A2:A50,Prices!B2:B50,"Unknown item")` returns the first exact match. Use a single row or column for each range, with matching sizes. Without a fallback, a missing key shows `#N/A`.
+- `=DAYS("2026-11-12","2026-11-01")` returns 11. `DATEVALUE` turns a date written as YYYY-MM-DD into a spreadsheet date number. Apply the Date format to display it as a date.
+- `TRIM` removes extra whitespace, `LEN` counts characters, and `LOWER` and `UPPER` change case.
 
 ## Check inputs as you edit
 

@@ -12,6 +12,8 @@ Enter `3` in A1 and `5` in A2. Enter `=SUM(A1:A2)*2` in B1 and inspect it. The m
 
 An `IF` formula shows which branch ran. Parts Scratch didn’t evaluate are marked **Skipped**. A range shows how many cells it covers. Press Escape to close the microscope and keep the grid open.
 
+Named ranges resolve to the cells they cover. For a cross-sheet reference, the microscope shows the sheet and address in the expression. Jump links are available for references on the current sheet. [Work across sheets](/docs/grid#work-across-sheets).
+
 ## Find a cell behind an error
 
 Set A1 to `0`, B1 to `=12/A1` and C1 to `=B1+1`. Inspect C1 and choose **Go to A1** to jump to the zero divisor. For an error inside the formula itself, such as `=1/0`, the microscope shows the failing step. A formula Scratch cannot parse shows the error above the expression.
