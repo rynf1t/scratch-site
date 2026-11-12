@@ -51,6 +51,8 @@ Use the **Format** menu for currencies, dates, decimals and text. ⌥⌘1 throug
 
 Type `=SUM(` in a cell or in the formula bar, then drag across the cells to enter a range. Hold at the grid edge to reach cells beyond the visible area. Click a single cell to enter its address. Type a comma to pick another range, or press Return to finish the formula.
 
+Click the chevron beside the formula bar or press ⌥⌘E to expand it. Long expressions wrap, and underlined references match the outlines in the grid. The current argument and matching parentheses highlight as you move the caret. Press ⌥⌘E again to collapse the bar and keep editing at the same position. Return commits the edit and Escape cancels it.
+
 Click **ƒx** on a formula cell to see the intermediate results and jump to its references. [Formula Microscope](/docs/formula-microscope).
 
 Open **Command Palette** from the ⋯ menu or press its shortcut (⇧⌘P by default). Type a cell address to jump to it, or try `12 kg to lb` to copy a unit conversion. Currency formatting sets how a value is displayed. It does not fetch exchange rates. [Keyboard Shortcuts](/docs/shortcuts).
@@ -62,6 +64,10 @@ Type `100 AUD to USD` in the command palette. Choose **Fetch ECB Rates** the fir
 Saved rates work offline. After one hour, or after a failed refresh, the palette labels the rate **Saved**. Choose **Refresh ECB Rates** to check for a newer snapshot. A copied number stays fixed when rates change. [ECB reference rates](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
 
 Select numbers and press ⌘Return to insert the suggested calculation. Press ⇧⌘C to copy the selected result or sum. **Pin Result** keeps the active cell’s formatted value in a small window above other apps. It updates when the source changes and lasts until Scratch quits.
+
+Drag **Sum** or **Avg** from the footer to a visible empty cell. The outline and label show the destination and formula. Hold Option to drop the current value. Press Escape to cancel or ⌘Z to undo a drop. Clicking a footer result copies it.
+
+From the keyboard, choose **Place Selection Sum in Cell** or **Place Selection Average in Cell** in the command palette. Type an empty destination address, then press Return for a formula or ⌥Return for a fixed value. Choose a cell outside the source range for a live formula.
 
 To extend a value, series or formula, drag the small square at the selection’s bottom-right corner. The grid scrolls if you hold the pointer at the edge. Release to apply the preview, or press Escape to cancel.
 

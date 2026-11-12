@@ -18,11 +18,15 @@ Use the toolbar for headings, bold, italic, lists, checklists and inline code. C
 
 ## Annotate a cell or range
 
+With Notes open, select text and Option-drag from inside the selection to a grid cell. Drop inside the current grid selection to annotate that range. The outline shows where the annotation will land. The text stays in Notes. Use ⌘Z from the grid to undo the new annotation.
+
 Select a cell or range and choose **Annotate Selection** in the command palette. Write up to 2,000 characters and click **Save** or press ⌘Return. A marker appears at the top left of the first cell.
 
 Click the marker to edit or delete the annotation. Use **Find Annotations** to search this sheet by address or text and jump to its range. Annotations are saved with the workbook. Undo can restore a deleted annotation.
 
 ## Put a live result in a note
+
+Select a range and Option-drag from inside it into Notes. The insertion marker shows where the live table will land. Add Shift for a live chart or Command for a range link. The label beside the pointer identifies the item before you drop it. Press Escape to cancel or ⌘Z in Notes to undo the insertion.
 
 Select a cell and press ⌥⌘L to insert its live value. The value changes with its source cell. Click it or press ⌥Return on the selected note link to go to the source.
 
