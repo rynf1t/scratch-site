@@ -49,9 +49,9 @@ Use **Remove Named Range** to remove the name. To use a named range in a formula
 
 ## Named tables
 
-Select a rectangle that includes the header and at least one data row. Click **Tables**, choose **Create Table from Selection**, and enter a name. Each table has a unique name on its sheet, and tables can sit side by side.
+Click any filled cell in a block of data, then choose **Tables → Create Table from Selection**. Scratch finds the connected block. For an exact range, drag across the header and the rows you want before choosing the command. Check the range and header row in the preview, type a name, and press Return. Press Escape to cancel.
 
-Click any cell in the table to use **Sort**, **Filter**, or **Export** for that table. The toolbar highlights **Tables**, and the column controls show the table’s name and range.
+Named tables stay in the grid, with a tinted header and outline so you can see where each one starts and ends. Tables can sit side by side. Click any cell in a table to see its name and range beside **Tables**, or use **Sort**, **Filter**, or **Export** on its cells.
 
 - **Sort** starts with the selected column. Choose a different column if needed, then click **Ascending** or **Descending** to preview the order. Click **Apply Sort** to move the rows. The first row stays as a header. Cells move within the table’s columns. Formula references follow the cells they refer to. Press ⌘Z to undo.
 - **Filter** shows matches as you type. Choose counted values or enter part of a displayed value. The panel shows the match count and a **Clear** button. Press Escape to restore the previous filter. Shaded cells mark excluded rows inside the table. Cells beside the table stay visible and row numbers stay in place. The arrow keys skip shaded cells. Each sheet has one active filter. Click the filter count to clear it.

@@ -16,6 +16,8 @@ Drag the dotted divider to change how much room each pane gets. Double-click to 
 
 Scratch remembers a size for each dock across sheets and launches. When the window is short or narrow, Scratch can temporarily shrink Notes to leave room for the grid. Widen or grow the window to get that space back.
 
+Hide Notes and reopen it on the same sheet to continue from the same selection and reading position. The docked pane reveals from the divider when motion is enabled.
+
 ## Format a note
 
 Use the toolbar for headings, bold, italic, lists, checklists and inline code. Click a checkbox to mark it done. ⌘B and ⌘I also work in the notes editor. Scratch shows headings, emphasis, bullets and checkboxes while saving the Markdown source. Move the caret into a list line to edit its markers directly. Use **Show Notes Markdown Source** in the command palette to edit the markers, then **Show Formatted Notes** to switch back.
@@ -63,6 +65,8 @@ The first save creates **Scratch Sheets.base**. Open it from the command palette
 Use **Copy Markdown** or **Save Markdown File** in the notes menu to take the same notes elsewhere.
 
 ## Edit a table in both Scratch and Obsidian
+
+**Yes, Obsidian edits can come back to Scratch.** Edit the note under `Scratch/Editable Tables`, then run **Sync Editable Table with Obsidian** again. Sync runs on demand for the current sheet. Dated copies under `Scratch/Sheets` and entries in your daily note are snapshots.
 
 In Scratch, choose **Sync Editable Table with Obsidian** from the command palette or the Notes menu. The first sync creates a separate note under `Scratch/Editable Tables` in your configured vault. Use **Open Editable Table in Obsidian** to open it again.
 

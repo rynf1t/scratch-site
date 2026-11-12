@@ -27,6 +27,6 @@ Click **⋯ → Keyboard Shortcuts** to change the shortcuts for opening Scratch
 
 ## Choose the look and motion
 
-Open **⋯** and choose **Animation Style**. **Natural** is the default. **Snappy** shortens transitions, and **Off** turns them off. Scratch follows macOS Reduce Motion and uses a solid window background when Reduce Transparency is on.
+Open **⋯** and choose **Animation Style**. **Natural** is the default. **Snappy** shortens transitions, and **Off** turns them off. The docked Notes pane reveals from its divider. Nearby cell jumps scroll into view, and distant ones land with a short fade. macOS Reduce Motion skips the movement. Scratch uses a solid window background when Reduce Transparency is on.
 
 Turn on **Follow System Accent** in the same menu to use the accent from macOS. Scratch uses a coral accent by default. Formula references have their own colours so you can match the formula to the cells in the grid.
