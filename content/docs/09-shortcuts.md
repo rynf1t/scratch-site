@@ -16,6 +16,7 @@ group: Start
 | Send to Obsidian | ⇧⌘J | In Scratch |
 | Find a Sheet | ⌘K | In Scratch |
 | Next or Previous Sheet | ⌃Tab or ⌃⇧Tab | In Scratch |
+| Nudge Cell Up or Down | ⌃⌥↑ or ⌃⌥↓ | On the grid |
 
 If another app intercepts a shortcut, click **Notes** or choose **Command Palette** from the ⋯ menu while you change the binding. For example, try ⌃⌥N for Notes and ⌃⌥P for the palette if those combinations are available on your Mac. Scratch flags conflicts with its own shortcuts.
 
@@ -38,6 +39,17 @@ Press ⌃Tab to move forward in workbook order or ⌃⇧Tab to move backward. Bo
 <figure class="scratch-media">
 <img class="scratch-light" src="/docs/sheet-switcher-light.webp" alt="The sheet switcher lists Coast trip with its last selected cell and marks November budget as the current sheet." width="1120" height="690" loading="lazy" decoding="async">
 <img class="scratch-dark" src="/docs/sheet-switcher-dark.webp" alt="The sheet switcher lists Coast trip with its last selected cell and marks November budget as the current sheet." width="1120" height="690" loading="lazy" decoding="async">
+</figure>
+
+## Nudge a number or date
+
+Select a cell on the grid and press ⌃⌥↑ or ⌃⌥↓. A number moves by one, a date by one day and a percentage by one percentage point. Hold Shift for ten, one week or ten percentage points.
+
+Dependent formulas update as you hold the key. Release it and press ⌘Z to undo the full adjustment. Select a formula’s input cell to adjust the result. **Nudge Cell Up** and **Nudge Cell Down** are also in the command palette.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/cell-nudge-light.webp" alt="The command palette shows Nudge Cell Up and Nudge Cell Down with their keyboard shortcuts." width="547" height="327" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/cell-nudge-dark.webp" alt="The command palette shows Nudge Cell Up and Nudge Cell Down with their keyboard shortcuts." width="547" height="327" loading="lazy" decoding="async">
 </figure>
 
 <figure class="scratch-media">

@@ -12,6 +12,13 @@ Scratch is in local preview. If you have a copy of the source, run `make run` fr
 
 Click Scratch’s menu bar icon or press ⌥ Space. Press Escape on the grid to dismiss it. Open it again to resume at the same selection. The pin beside Notes keeps the grid visible when you switch apps.
 
+On an empty sheet, look at the lower left for a first-run hint. Start typing to edit the selected cell. The hints for typing, opening the command palette and hiding Scratch each retire after you use the action.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/empty-sheet-hint-light.webp" alt="A new sheet with A1 selected and a Type to start hint at the lower left." width="547" height="337" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/empty-sheet-hint-dark.webp" alt="A new sheet with A1 selected and a Type to start hint at the lower left." width="547" height="337" loading="lazy" decoding="async">
+</figure>
+
 ## Add five numbers
 
 1. Type a number and press Return. Repeat for five consecutive rows in column A.
