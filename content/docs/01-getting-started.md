@@ -30,7 +30,7 @@ Click Scratch’s menu bar icon or press ⌥ Space. Press Escape on the grid to 
 <img class="scratch-dark scratch-poster" src="/docs/first-total-dark.webp" alt="Select five values, enter SUM in A6 and extend the reference to A1:A5 with Shift and Up." width="1080" height="700" loading="lazy" decoding="async">
 </figure>
 
-Use ⇧⌘N to create a sheet and ⌘K to switch sheets. Each sheet has its own grid, notes and column widths. Scratch autosaves the workbook locally. **Delete Current Sheet** removes a sheet from the workbook view. **Restore Deleted Sheet** recovers it, including its notes, after a restart.
+Use ⇧⌘N to create a sheet and ⌘K to [find a sheet by name](/docs/shortcuts#switch-sheets). Each sheet has its own grid, notes and column widths. Scratch autosaves the workbook locally. **Delete Current Sheet** removes a sheet from the workbook view. **Restore Deleted Sheet** recovers it, including its notes, after a restart.
 
 ## Change the shortcuts
 
