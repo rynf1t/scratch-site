@@ -1,0 +1,41 @@
+# Scratch changelog
+
+Newest first.
+
+- 2026-11-13: [A cleaner workspace](https://scratch.itsryan.me/changelog/2026-11-13-workspace-polish.md). A lighter grid, a roomier palette, and controls that line up across Scratch.
+- 2026-11-13: [See where your tables are](https://scratch.itsryan.me/changelog/2026-11-13-table-previews-and-motion.md). Preview a named table, see its boundaries in the grid, and jump between cells with less visual disruption.
+- 2026-11-13: [Find a sheet or cycle straight to it](https://scratch.itsryan.me/changelog/2026-11-13-sheet-switcher.md). Search recent sheets with Command-K or cycle in workbook order with Control-Tab.
+- 2026-11-13: [Notes on every edge](https://scratch.itsryan.me/changelog/2026-11-13-notes-docking.md). Dock Notes above or below the grid, narrow a sort to specific rows and open editable tables cleanly in Obsidian.
+- 2026-11-13: [See Scratch in the guides](https://scratch.itsryan.me/changelog/2026-11-13-guide-screenshots.md). Screenshots and short demos for the grid, capture, Notes and more.
+- 2026-11-13: [Find your way back and see formula arguments](https://scratch.itsryan.me/changelog/2026-11-13-find-and-formula-help.md). Return from a search result and see what a formula takes while you type.
+- 2026-11-13: [Copy a range as Markdown, a total or an image](https://scratch.itsryan.me/changelog/2026-11-13-copy-and-export.md). Share a selection from Scratch and find the right file export by scope.
+- 2026-11-13: [Sort and filter at the column](https://scratch.itsryan.me/changelog/2026-11-13-column-controls.md). Open controls from a column header, preview a sort and filter by counted values.
+- 2026-11-13: [Nudge a number or date from the keyboard](https://scratch.itsryan.me/changelog/2026-11-13-cell-nudges.md). Adjust the selected cell and see formulas update as you hold the key.
+- 2026-11-13: [Borders and table styling](https://scratch.itsryan.me/changelog/2026-11-13-cell-borders.md). Preview borders, headers, alternating rows and a totals rule in the grid.
+- 2026-11-12: [Resize the Notes pane](https://scratch.itsryan.me/changelog/2026-11-12-your-notes-width.md). Adjust the divider between the grid and Notes. Scratch remembers your width.
+- 2026-11-12: [Record commands and customise shortcuts](https://scratch.itsryan.me/changelog/2026-11-12-workflows-and-shortcuts.md). Repeat grid commands and choose shortcuts that fit your Mac.
+- 2026-11-12: ["Workbooks and formulas (2026-11-12)"](https://scratch.itsryan.me/changelog/2026-11-12-workbooks-and-formulas.md). Move rows and columns, calculate across sheets, and open separate workbooks.
+- 2026-11-12: [Remember a window layout per display](https://scratch.itsryan.me/changelog/2026-11-12-window-positions-by-display.md). Scratch opens on the display under your pointer and remembers where you put it.
+- 2026-11-12: [More room for the grid and saved Obsidian sheets](https://scratch.itsryan.me/changelog/2026-11-12-window-and-obsidian.md). Expand from the toolbar and save a sheet copy when you send to Obsidian.
+- 2026-11-12: [Repair links to Scratch cells and ranges](https://scratch.itsryan.me/changelog/2026-11-12-stable-note-references.md). Keep live note references stable and point an existing link to a new source.
+- 2026-11-12: [Selection History](https://scratch.itsryan.me/changelog/2026-11-12-selection-history.md). Compare previous edits and restore a range of cells.
+- 2026-11-12: [Select separate cells and ranges](https://scratch.itsryan.me/changelog/2026-11-12-select-separate-ranges.md). Format, clear or total cells across several ranges in one selection.
+- 2026-11-12: [Search your Obsidian vault from Scratch](https://scratch.itsryan.me/changelog/2026-11-12-search-obsidian-vault.md). Find notes by title or text, open a result, or insert its link into Scratch Notes.
+- 2026-11-12: [Insert and delete rows and columns](https://scratch.itsryan.me/changelog/2026-11-12-rows-columns-and-drag.md). Make room in a sheet and drag a selection from the toolbar.
+- 2026-11-12: [Formula Microscope and a bigger grid](https://scratch.itsryan.me/changelog/2026-11-12-resize-and-formula-microscope.md). Inspect formula results, resize the window and drag ranges into formulas.
+- 2026-11-12: [A/B scenarios removed](https://scratch.itsryan.me/changelog/2026-11-12-remove-scenarios.md). The comparison window and its command have been removed.
+- 2026-11-12: [Preview paste, browse formats and review captures](https://scratch.itsryan.me/changelog/2026-11-12-paste-format-and-capture-review.md). Check the effect of a paste, preview cell formats and reconcile screenshot amounts.
+- 2026-11-12: [Open the source of a Scratch export](https://scratch.itsryan.me/changelog/2026-11-12-open-exports-in-scratch.md). Jump from Obsidian or exported Markdown to the original Scratch sheet.
+- 2026-11-12: [Obsidian destinations, result sources and CSV](https://scratch.itsryan.me/changelog/2026-11-12-obsidian-sources-and-csv.md). See where a send landed, trace a pinned result, and drag sheets and selections out of Scratch.
+- 2026-11-12: [Linked annotations, sheet zoom and clearer selection](https://scratch.itsryan.me/changelog/2026-11-12-notes-zoom-and-selection.md). Edit a shared annotation from Notes or the grid, zoom sheets and preview range drags.
+- 2026-11-12: [Named tables](https://scratch.itsryan.me/changelog/2026-11-12-named-tables.md). Turn a selection into a table and sort, filter or export it from the grid toolbar.
+- 2026-11-12: [Named ranges, sheet copies and file import](https://scratch.itsryan.me/changelog/2026-11-12-named-ranges-and-imports.md). Save a range by name, duplicate a sheet, and open CSV and TSV files.
+- 2026-11-12: [Movable panes and a visible grid toolbar](https://scratch.itsryan.me/changelog/2026-11-12-movable-panes-and-grid-toolbar.md). Dock or detach the live grid and Notes, and find Freeze, Sort, Filter and Export above the formula bar.
+- 2026-11-12: [Scratch local preview](https://scratch.itsryan.me/changelog/2026-11-12-local-preview.md). A floating grid with formulas, clipboard capture and notes.
+- 2026-11-12: [See what to fix beside a cell](https://scratch.itsryan.me/changelog/2026-11-12-live-input-checks.md). Check ranges for numbers, positive values and duplicates as you edit.
+- 2026-11-12: [Freeze panes, sort and filter](https://scratch.itsryan.me/changelog/2026-11-12-freeze-sort-filter.md). Keep labels visible, sort complete rows and narrow a sheet by what you see in a column.
+- 2026-11-12: [Editable Obsidian tables](https://scratch.itsryan.me/changelog/2026-11-12-editable-obsidian-tables.md). Edit cells in Scratch and Obsidian, then merge the changes on demand.
+- 2026-11-12: [Drag across more of the grid](https://scratch.itsryan.me/changelog/2026-11-12-drag-selection.md). Keep scrolling while you select cells, fill a series or pick a formula range.
+- 2026-11-12: [Drag results and expand formulas](https://scratch.itsryan.me/changelog/2026-11-12-drag-and-expand.md). Place calculations, link Notes to cells, and edit long formulas in a larger bar.
+- 2026-11-12: [Convert currency from the palette](https://scratch.itsryan.me/changelog/2026-11-12-currency-conversion.md). Copy a conversion with a dated ECB reference rate.
+- 2026-11-12: [Annotate cells and ranges](https://scratch.itsryan.me/changelog/2026-11-12-cell-annotations.md). Leave a note on a specific part of the grid and jump back to it later.

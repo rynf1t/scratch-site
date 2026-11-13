@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-AU">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light dark" />
+		<link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+		<script>
+			// Light or dark before first paint: the reader's choice if they made one, otherwise the system's.
+			(function () {
+				var q = matchMedia('(prefers-color-scheme: dark)');
+				function saved() {
+					try { return localStorage.getItem('toolsite-mode'); } catch (e) { return null; }
+				}
+				function apply() {
+					document.documentElement.dataset.mode = saved() || (q.matches ? 'dark' : 'light');
+				}
+				apply();
+				q.addEventListener('change', apply);
+			})();
+		</script>
+		<link href="/_app/immutable/entry/start.BiGYRAOe.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/payload.DSmR2FwN.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DclECHGd.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DudTz5nx.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/irT2goNU.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DqpWKNGl.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Bslm0Igk.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.BOgCTU2k.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.CAYOR_3z.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/PTCq-6_v.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/4q2hSsAP.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/5.CH8L8ULz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/5QxTV_PG.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/D3INLiNL.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B5AooSWN.js" rel="modulepreload">
+		<!--12qhfyh--><!----><style>html:root{--tint-h:247;--accent-h:257;--focus-h:300}</style><!----> <link rel="preload" href="/_app/immutable/assets/instrument-sans-latin-wght-normal.BbzFLZTg.woff2" as="font" type="font/woff2" crossorigin="anonymous"/> <link rel="icon" href="/favicon.svg" type="image/svg+xml"/> <meta name="theme-color" content="#f5f7f9" media="(prefers-color-scheme: light)"/> <meta name="theme-color" content="#0d1114" media="(prefers-color-scheme: dark)"/><!----><!--qgnb9j--><meta name="description" content="Place calculations, link Notes to cells, and edit long formulas in a larger bar."/> <link rel="alternate" type="text/markdown" href="/changelog/2026-11-12-drag-and-expand.md" title="Markdown"/><!----><title>Drag results and expand formulas · Scratch changelog</title>
+		<link href="/_app/immutable/assets/0.BeN09Z2Q.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/ModeToggle.BGcFn2YQ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SiteFooter.C2iJMiiC.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/5.XAorldwP.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!--[0--><!--[--><!--[--><!--[-1--><!--[--><header class="header svelte-a8kxe2"><a href="/" class="wordmark svelte-10y6uor" aria-label="Scratch home"><svg viewBox="0 0 20 20" aria-hidden="true" class="svelte-10y6uor"><!----><circle cx="10" cy="10" r="4" fill="var(--accent)"/><!----></svg> <span>Scratch</span></a><!----> <nav aria-label="Site" class="svelte-a8kxe2"><!--[--><a href="/docs" class="svelte-a8kxe2">Docs</a><a href="/changelog" class="extra svelte-a8kxe2" aria-current="page">Changelog</a><!--]--> <a href="https://github.com/rynf1t/scratch-site" class="gh svelte-a8kxe2">GitHub</a> <button type="button" class="trigger edge svelte-hsr9lg" aria-label="Search" aria-keyshortcuts="Meta+K"><svg viewBox="0 0 16 16" aria-hidden="true" class="svelte-hsr9lg"><circle cx="7" cy="7" r="4.75" fill="none" stroke="currentColor" stroke-width="1.5"></circle><path d="m10.5 10.5 3.25 3.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg> <span class="svelte-hsr9lg">Search</span> <kbd class="svelte-hsr9lg">⌘K</kbd></button><!----> <button type="button" class="mode svelte-pkhzb5" aria-label="Switch to dark mode"><svg viewBox="0 0 16 16" aria-hidden="true" class="svelte-pkhzb5"><!--[-1--><path d="M13.5 9.6A5.75 5.75 0 0 1 6.4 2.5a5.75 5.75 0 1 0 7.1 7.1Z"></path><!--]--></svg></button><!----></nav></header><!----> <main class="svelte-qgnb9j"><p class="back svelte-qgnb9j"><a href="/changelog" class="svelte-qgnb9j">Changelog</a></p> <p class="date svelte-qgnb9j"><time>12 NOV 2026</time></p> <h1 class="svelte-qgnb9j">Drag results and expand formulas</h1> <!--[-1--><!--]--> <div class="prose svelte-qgnb9j"><!----><p><strong>Drag Sum or Avg from the footer into an empty cell.</strong> Scratch previews the formula before you drop it. Hold Option to insert the current value. The command palette can place either result by address. <a href="/docs/grid#calculate-and-copy">Grid guide</a>.</p>
+<p><strong>Drag between the grid and Notes.</strong> Option-drag a selected range into Notes for a live table. Add Shift for a chart or Command for a link. Option-drag selected note text to the grid to annotate a cell or range. <a href="/docs/notes-and-obsidian#put-a-live-result-in-a-note">Notes guide</a>.</p>
+<p><strong>Expand the formula bar with ⌥⌘E or the chevron.</strong> Long expressions wrap. Underlined references match their grid outlines, and the current argument and matching parentheses highlight as you move the caret. Collapse the bar to keep editing at the same position. <a href="/docs/grid#calculate-and-copy">Formula editing</a>.</p>
+<!----></div> <p class="md svelte-qgnb9j"><a href="/changelog/2026-11-12-drag-and-expand.md" data-sveltekit-reload="" class="svelte-qgnb9j">This post as Markdown</a></p></main> <footer class="footer svelte-4jwo3w"><a href="/docs" class="svelte-4jwo3w">Docs</a> <!--[--><!--]--> <!--[0--><a href="/changelog" class="svelte-4jwo3w">Changelog</a><!--]--> <span class="rule svelte-4jwo3w" aria-hidden="true"></span> <a href="/llms.txt" data-sveltekit-reload="" class="svelte-4jwo3w">llms.txt</a> <a href="https://github.com/rynf1t/scratch-site" class="svelte-4jwo3w">GitHub</a> <!--[0--><a href="https://itsryan.me" class="svelte-4jwo3w">by Ryan</a><!--]--></footer><!----><!--]--><!--]--><!--]--><!----> <dialog class="search svelte-1002zyw" aria-label="Search the docs"><div class="bar svelte-1002zyw"><svg viewBox="0 0 16 16" aria-hidden="true" class="glass svelte-1002zyw"><circle cx="7" cy="7" r="4.75" fill="none" stroke="currentColor" stroke-width="1.5"></circle><path d="m10.5 10.5 3.25 3.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg> <input value="" type="text" placeholder="Search the docs" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="search-results" aria-autocomplete="list" class="svelte-1002zyw"/> <button type="button" class="esc svelte-1002zyw" aria-label="Close search">esc</button></div> <div id="search-results" class="results svelte-1002zyw" role="listbox" aria-label="Results"><!--[-1--><!--]--> <!--[--><!--]--></div></dialog><!----><!--]--><!--]--><!--]--><!----> <!--[-1--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_i6cnru = {
+						base: "",
+						version: "1794530103404"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("/_app/immutable/entry/start.BiGYRAOe.js").then(async (kit) => {
+						kit.init(__sveltekit_i6cnru);
+						const app = await import("/_app/immutable/entry/app.BOgCTU2k.js");
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data: [null,{type:"data",data:{entry:{title:"Drag results and expand formulas",description:"Place calculations, link Notes to cells, and edit long formulas in a larger bar.",version:"",date:"12 NOV 2026",html:"\u003Cp>\u003Cstrong>Drag Sum or Avg from the footer into an empty cell.\u003C/strong> Scratch previews the formula before you drop it. Hold Option to insert the current value. The command palette can place either result by address. \u003Ca href=\"/docs/grid#calculate-and-copy\">Grid guide\u003C/a>.\u003C/p>\n\u003Cp>\u003Cstrong>Drag between the grid and Notes.\u003C/strong> Option-drag a selected range into Notes for a live table. Add Shift for a chart or Command for a link. Option-drag selected note text to the grid to annotate a cell or range. \u003Ca href=\"/docs/notes-and-obsidian#put-a-live-result-in-a-note\">Notes guide\u003C/a>.\u003C/p>\n\u003Cp>\u003Cstrong>Expand the formula bar with ⌥⌘E or the chevron.\u003C/strong> Long expressions wrap. Underlined references match their grid outlines, and the current argument and matching parentheses highlight as you move the caret. Collapse the bar to keep editing at the same position. \u003Ca href=\"/docs/grid#calculate-and-copy\">Formula editing\u003C/a>.\u003C/p>\n",path:"/changelog/2026-11-12-drag-and-expand"}},uses:{params:["slug"]}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

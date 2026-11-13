@@ -1,0 +1,39 @@
+# Scratch
+
+> A floating spreadsheet for macOS with formulas, notes and clipboard capture.
+
+Every page is Markdown at the same URL with `.md` added. The full set is in /llms-full.txt and a JSON index is at /search.json.
+
+- [Scratch](https://scratch.itsryan.me/index.md): what it is and how to install it
+- [Source](https://github.com/rynf1t/scratch-site)
+
+## Start
+
+- [Getting started](https://scratch.itsryan.me/docs/getting-started.md): Open Scratch and calculate your first total.
+
+## Guides
+
+- [Grid and shortcuts](https://scratch.itsryan.me/docs/grid.md): Move, edit, format and calculate from the keyboard.
+- [Capture and paste](https://scratch.itsryan.me/docs/capture.md): Bring in clipboard amounts, screenshots and delimited text.
+- [Notes and Obsidian](https://scratch.itsryan.me/docs/notes-and-obsidian.md): Link notes to live cells and send the table and notes to your vault.
+- [Formula Microscope](https://scratch.itsryan.me/docs/formula-microscope.md): See how a formula evaluates and jump to the cells behind its result.
+- [Selection History](https://scratch.itsryan.me/docs/history.md): Compare earlier cell entries and recover a range without rolling back the sheet.
+- [Record and Replay](https://scratch.itsryan.me/docs/replay.md): Save a sequence of grid commands and run it on another range.
+
+## Start
+
+- [Keyboard Shortcuts](https://scratch.itsryan.me/docs/shortcuts.md): Choose your own shortcuts for Notes, the command palette and capture.
+
+## Changelog
+
+- [All entries](https://scratch.itsryan.me/changelog.md): newest first
+- [A cleaner workspace](https://scratch.itsryan.me/changelog/2026-11-13-workspace-polish.md): 2026-11-13
+- [See where your tables are](https://scratch.itsryan.me/changelog/2026-11-13-table-previews-and-motion.md): 2026-11-13
+- [Find a sheet or cycle straight to it](https://scratch.itsryan.me/changelog/2026-11-13-sheet-switcher.md): 2026-11-13
+- [Notes on every edge](https://scratch.itsryan.me/changelog/2026-11-13-notes-docking.md): 2026-11-13
+- [See Scratch in the guides](https://scratch.itsryan.me/changelog/2026-11-13-guide-screenshots.md): 2026-11-13
+- [Find your way back and see formula arguments](https://scratch.itsryan.me/changelog/2026-11-13-find-and-formula-help.md): 2026-11-13
+- [Copy a range as Markdown, a total or an image](https://scratch.itsryan.me/changelog/2026-11-13-copy-and-export.md): 2026-11-13
+- [Sort and filter at the column](https://scratch.itsryan.me/changelog/2026-11-13-column-controls.md): 2026-11-13
+- [Nudge a number or date from the keyboard](https://scratch.itsryan.me/changelog/2026-11-13-cell-nudges.md): 2026-11-13
+- [Borders and table styling](https://scratch.itsryan.me/changelog/2026-11-13-cell-borders.md): 2026-11-13
