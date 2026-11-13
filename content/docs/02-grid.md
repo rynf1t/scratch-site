@@ -173,11 +173,24 @@ Drag the sheet name past the edge of the Scratch panel and release. You can also
 
 ## Drag out a table or export CSV
 
-Select a single range and drag **Export** from the grid toolbar. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click **Export** to choose a CSV of the selection or the sheet.
+Select a single range and drag **Export** from the grid toolbar. Drop it into an app that accepts tab-separated text, or onto the desktop or into Finder to create a CSV. You can also Control-drag inside the selection, or Control-drag the sheet name to export its populated area. The drag label shows the cell range and available formats. Click **Export** to see actions grouped by **Selection**, **Table**, **Sheet** and **Workbook**. The table section appears when the active cell is in a named table.
 
 Choose **Export Selection as CSV** or **Export Sheet as CSV** and pick where to save the file. The larger sheet window also has an **Export CSV** button. The file contains values, including calculated results, and keeps blank cells inside the exported rectangle. If a drop does not land, save the CSV through **Export** and open the file from the destination app.
 
 In Excel, import with **Data → Get Data → From Text/CSV** to read the UTF-8 text correctly. In Google Sheets, use **File → Import → Upload** and choose a comma separator. [Excel import guide](https://support.microsoft.com/en-gb/excel/import-data-from-a-csv-html-or-text-file) · [Google Sheets import guide](https://support.google.com/docs/answer/12236443?hl=en).
+
+## Copy a range for another app
+
+Select one rectangle, then choose **Export → Copy Selection As**, or find **Copy Selection As** in the command palette. Choose a format and paste it into the destination app.
+
+- **Markdown Table** copies up to 100,000 cells with formatted values and calculated results. Paste it into Obsidian or another Markdown editor.
+- **Total Sentence** copies the range address and sum, such as `B2:B6 totals $236.80.` Select the input cells you want to add.
+- **PNG Image** copies the selected grid cells at 2×, including their formatting. Hidden rows and columns follow the grid view. The image is limited to 4,096 pixels on each side and eight million pixels overall.
+
+<figure class="scratch-media">
+<img class="scratch-light" src="/docs/grid-copy-as-light.webp" alt="The Copy A1:C7 palette offers Markdown Table, Total Sentence and PNG Image." width="1280" height="840" loading="lazy" decoding="async">
+<img class="scratch-dark" src="/docs/grid-copy-as-dark.webp" alt="The Copy A1:C7 palette offers Markdown Table, Total Sentence and PNG Image." width="1280" height="840" loading="lazy" decoding="async">
+</figure>
 
 ## Workbooks and sheet archive
 
